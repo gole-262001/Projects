@@ -1,0 +1,101 @@
+OUTPUT 1 
+
+. sqoop import \
+> --connect jdbc:mysql://localhost/E_Commerce_Tables \
+> --table clickStream_data --fields-terminated-by ',' \
+> --username training --password training
+
+.  sqoop import \
+> --connect jdbc:mysql://localhost/E_Commerce_Tables \
+> --table clickStream_data --fields-terminated-by ',' \
+> --username training --password training
+
+.. sqoop import --connect jdbc:mysql://localhost/E_Commerce_Tables --table purchase_data --fields-terminated-by ',' --username training --password training
+
+
+OUTPUT 2
+
+FOR SECOND OUTPUT FIRST MYSQL --> HDFS --> HIVE from mysql ro hdfs i already done in first output 
+the sqoop command for this  is 
+
+. sqoop import \
+> --connect jdbc:mysql://localhost/E_Commerce_Tables \
+> --table clickStream_data --fields-terminated-by ',' \
+> --username training --password training
+
+.  sqoop import \
+> --connect jdbc:mysql://localhost/E_Commerce_Tables \
+> --table clickStream_data --fields-terminated-by ',' \
+> --username training --password training
+
+.. sqoop import --connect jdbc:mysql://localhost/E_Commerce_Tables --table purchase_data --fields-terminated-by ',' --username training --password training
+
+
+and for hdfs to hive commnads is 
+
+first create the tables in hive ware house for this commnads is 
+
+..  create table purchase_data(userID INT, timestamps STRING , amount DOUBLE)
+    > ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE; 
+
+create table clickStream_data(                                      
+    > `timestamp` TIMESTAMP,                                              
+    > page STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+
+create table customer_data(                                                   
+    > userID INT,                                                                   
+    > name STRING,
+    > email STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+
+
+then load the data 
+
+LOAD DATA INPATH 'e_commerce_project/customer.csv' INTO TABLE customer_data;
+
+LOAD DATA INPATH 'e_commerce_project/customer.csv' INTO TABLE customer_data;
+
+hive> LOAD DATA INPATH 'e_commerce_project/clickstream.csv' INTO TABLE clickstream_data;
+
+
+..OUTPUT 3 
+
+FIND OUT DATA CLEANSING COMMAND
+
+..    > hive> select                           
+    >     > count(case when userid = '' then 1 end) as blank_count_column1, 
+    >     > count(case when timestamps = '' then 1 end) as blank_count_column2,
+    >     > count(case when page = '' then 1 end) as blank_count_column3 from clickstream_data;
+
+
+
+    > hive> select                           
+    >     > count(case when userid = '' then 1 end) as blank_count_column1, 
+    >     > count(case when name = '' then 1 end) as blank_count_column2,
+    >     > count(case when email = '' then 1 end) as blank_count_column3 from customer_data;
+
+
+    > hive> select                           
+    >     > count(case when userid = '' then 1 end) as blank_count_column1, 
+    >     > count(case when timestamps = '' then 1 end) as blank_count_column2,
+    >     > count(case when amount = '' then 1 end) as blank_count_column3 from purchase_data;
+
+
+find out data range validation
+
+hive> select min(amount) , max(amount) from purchase_data;
+
+
+DATA ENRICHMENT
+
+hive> select customer_data.name , customer_data.email , purchase_data.amount , purchase.timestamps
+    > from customer_data join purchase_data on customer_data.userid = purchase_data.userid;
+
+
+
+
+
+
+
+ 
+
+

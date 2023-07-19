@@ -1,0 +1,794 @@
+[training@localhost ~]$ mysql --user=training --password=training
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 8
+Server version: 5.1.66 Source distribution
+
+Copyright (c) 2000, 2012, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| hue                |
+| metastore          |
+| movielens          |
+| mysql              |
+| test               |
+| training           |
++--------------------+
+7 rows in set (0.09 sec)
+
+mysql> create database E-Commerce-Tables;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-Commerce-Tables' at line 1
+mysql> CREATE DATABASE E_Commerce_Tables;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| E_Commerce_Tables  |
+| hue                |
+| metastore          |
+| movielens          |
+| mysql              |
+| test               |
+| training           |
++--------------------+
+8 rows in set (0.00 sec)
+
+mysql> use E_Commerce_Tables;
+Database changed
+mysql> show tables;
+Empty set (0.00 sec)
+
+mysql> CREATE TABLE clickStream_data (
+    -> userID INT,
+    -> timestamp TIMESTAMP,
+    -> page VARCHAR(50)
+    -> );
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> CREATE TABLE customer_data(
+    -> userID INT,
+    -> name VARCHAR(50),
+    -> email VARCHAR(100)
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> CREATE TABLE purchase_data( userID INT,);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+mysql> CREATE TABLE purchase_data( userID INT,
+    -> timestamp TIMESTAMP,
+    -> amount DECIMAL(10, 2)
+    -> );
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> show tables;
++-----------------------------+
+| Tables_in_E_Commerce_Tables |
++-----------------------------+
+| clickStream_data            |
+| customer_data               |
+| purchase_data               |
++-----------------------------+
+3 rows in set (0.00 sec)
+
+mysql> LOAD DATA INFILE '/home/training/InputFiles
+    '> sd
+    '> ;
+    '> 
+    '> Ctrl-C -- exit!
+Aborted
+[training@localhost ~]$ mysql --user=training --password=training
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 9
+Server version: 5.1.66 Source distribution
+
+Copyright (c) 2000, 2012, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv'
+    -> INTO TABLE clickStream_data 
+    -> FIELDS TERMINATED BY ','
+    -> ENCLOSED BY '"'
+    -> LINES TERMINATED BY '/n'
+    -> IGNORE 1 ROWS;
+ERROR 1046 (3D000): No database selected
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 ROWS;
+ERROR 1046 (3D000): No database selected
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| E_Commerce_Tables  |
+| hue                |
+| metastore          |
+| movielens          |
+| mysql              |
+| test               |
+| training           |
++--------------------+
+8 rows in set (0.00 sec)
+
+mysql> use E_Commerce_Tables;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 ROWS;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ROWS' at line 1
+mysql> show tables;
++-----------------------------+
+| Tables_in_E_Commerce_Tables |
++-----------------------------+
+| clickStream_data            |
+| customer_data               |
+| purchase_data               |
++-----------------------------+
+3 rows in set (0.00 sec)
+
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 ROWS;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ROWS' at line 1
+mysql> mysql version
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mysql version' at line 1
+mysql> 
+mysql> 
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream_data.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream_data.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream_data.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream_data.csv.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE 'home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/var/lib/mysql/home/training/InputFiles/clickstream_data.csv.csv' (Errcode: 2)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream_data.csv.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream_data.csv.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE 'home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/var/lib/mysql/home/training/InputFiles/clickstream_data.csv.csv' (Errcode: 2)
+mysql> LOAD DATA INFILE 'home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/var/lib/mysql/home/training/InputFiles/clickstream_data.csv.csv' (Errcode: 2)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream_data.csv.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream_data.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream_data.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream.csv' (Errcode: 13)
+mysql> LOAD DATA INFILE '/home/training/InputFiles/clickstream.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/home/training/InputFiles/clickstream.csv' (Errcode: 13)
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/clickstream.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> SHOW TABLES;
++-----------------------------+
+| Tables_in_E_Commerce_Tables |
++-----------------------------+
+| clickStream_data            |
+| customer_data               |
+| purchase_data               |
++-----------------------------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT * FROM clickStream_data;
+Empty set (0.00 sec)
+
+mysql> SELECT * FROM clickStream_data;
+Empty set (0.00 sec)
+
+mysql> SHOW TABLES;
++-----------------------------+
+| Tables_in_E_Commerce_Tables |
++-----------------------------+
+| clickStream_data            |
+| customer_data               |
+| purchase_data               |
++-----------------------------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT * FROM clickStream_data;
+Empty set (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/clickstream.csv' INTO TABLE clickStream_data  FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/r/n' IGNORE 1 LINES;
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select * from customer_data;
+Empty set (0.00 sec)
+
+mysql> select count(*) from customer_data;
++----------+
+| count(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 LINES;
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select count(*) from customer_data;
++----------+
+| count(*) |
++----------+
+|        0 |
++----------+
+1 row in set (0.00 sec)
+
+mysql> --local=0
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--local=0' at line 1
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 LINES;
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 Rows;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Rows' at line 1
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 LINES;
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 LINES; '"' LINES TERMINATED BY '/nQuery OK, 0 rows affected (0.00 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 LINES;
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> LOAD DATA INFILE 'E-Commerce-Project/InputFiles/clickstream.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 LINES;
+ERROR 13 (HY000): Can't get stat of '/var/lib/mysql/E-Commerce-Project/InputFiles/clickstream.csv' (Errcode: 2)
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '/n' IGNORE 1 LINES;
+Query OK, 0 rows affected (0.00 sec)
+Records: 0  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> show tables;
++-----------------------------+
+| Tables_in_E_Commerce_Tables |
++-----------------------------+
+| clickStream_data            |
+| customer_data               |
+| purchase_data               |
++-----------------------------+
+3 rows in set (0.00 sec)
+
+mysql> 
+
+
+mysql> select * from customer_data;
++--------+----------------+------------------------------+
+| userID | name           | email                        |
++--------+----------------+------------------------------+
+|      1 | NULL           | NULL                         |
+       | | John Doe       | john.doe@example.com"
+     | 0 | Jane Smith     | jane.smith@example.com"
+ |     0 | Robert Johnson | robert.johnson@example.com"
+     | 0 | Lisa Brown     | lisa.brown@example.com"
+|      0 | Michael Wilson | michael.wilson@example.com"  |
+                      |   | email"
+       | | John Doe       | john.doe@example.com"
+     | 0 | Jane Smith     | jane.smith@example.com"
+ |     0 | Robert Johnson | robert.johnson@example.com"
+     | 0 | Lisa Brown     | lisa.brown@example.com"
+|      0 | Michael Wilson | michael.wilson@example.com"  |
++--------+----------------+------------------------------+
+12 rows in set (0.00 sec)
+
+mysql> select * from customer_data where userID == 3;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '== 3' at line 1
+mysql> select * from customer_data where' userID' = 3 ;
+Empty set, 1 warning (0.00 sec)
+
+mysql> select * from customer_data where' userID' = 1 ;
+Empty set, 1 warning (0.00 sec)
+
+mysql> 
+mysql> select * from customer_data where userID = 3;
+Empty set (0.00 sec)
+
+mysql> select * from customer_data where userID = 1 ;
++--------+------+-------+
+| userID | name | email |
++--------+------+-------+
+|      1 | NULL | NULL  |
++--------+------+-------+
+1 row in set (0.00 sec)
+
+mysql> select * from customer_data where userID = 3 ;
+Empty set (0.00 sec)
+
+mysql> select userID from customer_data  ;
++--------+
+| userID |
++--------+
+|      1 |
+|      0 |
+|      0 |
+|      0 |
+|      0 |
+|      0 |
+|      0 |
+|      0 |
+|      0 |
+|      0 |
+|      0 |
+|      0 |
++--------+
+12 rows in set (0.00 sec)
+
+mysql> ALTER TABLE customer_data
+    -> MODIFY COLUMN userID VARCHAR(50);
+Query OK, 12 rows affected (0.04 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+mysql> describe customer_data;
++--------+--------------+------+-----+---------+-------+
+| Field  | Type         | Null | Key | Default | Extra |
++--------+--------------+------+-----+---------+-------+
+| userID | varchar(50)  | YES  |     | NULL    |       |
+| name   | varchar(50)  | YES  |     | NULL    |       |
+| email  | varchar(100) | YES  |     | NULL    |       |
++--------+--------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',';
+Query OK, 6 rows affected (0.00 sec)
+Records: 6  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select * from customer_data;
++---------+----------------+------------------------------+
+| userID  | name           | email                        |
++---------+----------------+------------------------------+
+| 1       | NULL           | NULL                         |
+       |  | John Doe       | john.doe@example.com"
+     |    | Jane Smith     | jane.smith@example.com"
+ |0       | Robert Johnson | robert.johnson@example.com"
+     |    | Lisa Brown     | lisa.brown@example.com"
+| 0       | Michael Wilson | michael.wilson@example.com"  |
+                      |    | email"
+       |  | John Doe       | john.doe@example.com"
+     |    | Jane Smith     | jane.smith@example.com"
+ |0       | Robert Johnson | robert.johnson@example.com"
+     |    | Lisa Brown     | lisa.brown@example.com"
+| 0       | Michael Wilson | michael.wilson@example.com"  |
+                      |    | email"
+       |  | John Doe       | john.doe@example.com"
+     |    | Jane Smith     | jane.smith@example.com"
+ |"3      | Robert Johnson | robert.johnson@example.com"
+     |    | Lisa Brown     | lisa.brown@example.com"
+| "5      | Michael Wilson | michael.wilson@example.com"  |
++---------+----------------+------------------------------+
+18 rows in set (0.00 sec)
+
+mysql> DELETE FROM customer_data;
+Query OK, 18 rows affected (0.00 sec)
+
+mysql> select * from customer_data;
+Empty set (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',';
+Query OK, 6 rows affected (0.00 sec)
+Records: 6  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select * from customer_data;
++---------+----------------+------------------------------+
+| userID  | name           | email                        |
++---------+----------------+------------------------------+
+                      |    | email"
+       |  | John Doe       | john.doe@example.com"
+     |    | Jane Smith     | jane.smith@example.com"
+ |"3      | Robert Johnson | robert.johnson@example.com"
+     |    | Lisa Brown     | lisa.brown@example.com"
+| "5      | Michael Wilson | michael.wilson@example.com"  |
++---------+----------------+------------------------------+
+6 rows in set (0.00 sec)
+
+mysql> select userID from custmer_data;
+ERROR 1146 (42S02): Table 'E_Commerce_Tables.custmer_data' doesn't exist
+mysql> select userID from customer_data;
++---------+
+| userID  |
++---------+
+| "userID |
+| "1      |
+| "2      |
+| "3      |
+| "4      |
+| "5      |
++---------+
+6 rows in set (0.00 sec)
+
+mysql> delete from customer_data;
+Query OK, 6 rows affected (0.00 sec)
+
+mysql> select userID from customer_data;
+Empty set (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' IGNORED 1 LINES ; 
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IGNORED 1 LINES' at line 1
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' IGNORE 1 LINES ; 
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select userID from customer_data;
++--------+
+| userID |
++--------+
+| "1     |
+| "2     |
+| "3     |
+| "4     |
+| "5     |
++--------+
+5 rows in set (0.00 sec)
+
+mysql> select * from customer_data;
++--------+----------------+------------------------------+
+| userID | name           | email                        |
++--------+----------------+------------------------------+
+       | | John Doe       | john.doe@example.com"
+     |   | Jane Smith     | jane.smith@example.com"
+ |"3     | Robert Johnson | robert.johnson@example.com"
+     |   | Lisa Brown     | lisa.brown@example.com"
+| "5     | Michael Wilson | michael.wilson@example.com"  |
++--------+----------------+------------------------------+
+5 rows in set (0.00 sec)
+
+mysql> DELETE FROM customer_data;
+Query OK, 5 rows affected (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' IGNORE 1 LINES; 
+Query OK, 1 row affected, 3 warnings (0.00 sec)
+Records: 1  Deleted: 0  Skipped: 0  Warnings: 3
+
+mysql> select * from customer_data;
++----------------------------------------------------+------+-------+
+| userID                                             | name | email |
++----------------------------------------------------+------+-------+
+| 1,John Doe,john.doe@example.com"
+"2,Jane Smith,ja | NULL | NULL  |
++----------------------------------------------------+------+-------+
+1 row in set (0.00 sec)
+
+mysql> delete from customer_data;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' IGNORE 1 LINES; 
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> delete from customer_data;
+Query OK, 5 rows affected (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' IGNORE 1 LINES; 
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select * from customer_data;
++--------+----------------+------------------------------+
+| userID | name           | email                        |
++--------+----------------+------------------------------+
+       | | John Doe       | john.doe@example.com"
+     |   | Jane Smith     | jane.smith@example.com"
+ |"3     | Robert Johnson | robert.johnson@example.com"
+     |   | Lisa Brown     | lisa.brown@example.com"
+| "5     | Michael Wilson | michael.wilson@example.com"  |
++--------+----------------+------------------------------+
+5 rows in set (0.00 sec)
+
+mysql> select userID from customer_data;
++--------+
+| userID |
++--------+
+| "1     |
+| "2     |
+| "3     |
+| "4     |
+| "5     |
++--------+
+5 rows in set (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/clickstream.csv' INTO TABLE clickStream_data FIELDS TERMINATED BY ',' IGNORE 1 LINES; 
+Query OK, 13 rows affected, 13 warnings (0.00 sec)
+Records: 13  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select  * from clickStream_data;
++--------+---------------------+-----------------+
+| userID | timestamp           | page            |
++--------+---------------------+-----------------+
+      |0 | 2023-01-01 10:00:00 | homepage"
+  |    0 | 2023-01-01 10:01:00 | product_page"
+      |0 | 2023-01-01 10:02:00 | homepage"
+     | 0 | 2023-01-01 10:03:00 | cart_page"
+      |0 | 2023-01-01 10:05:00 | homepage"
+  |    0 | 2023-01-01 10:06:00 | product_page"
+     | 0 | 2023-01-01 10:07:00 | cart_page"
+      |0 | 2023-01-01 10:09:00 | homepage"
+  |    0 | 2023-01-01 10:10:00 | product_page"
+     | 0 | 2023-01-01 10:11:00 | cart_page"
+ |     0 | 2023-01-01 10:12:00 | checkout_page"
+      |0 | 2023-01-01 10:15:00 | homepage"
+|      0 | 2023-01-01 10:16:00 | product_page"   |
++--------+---------------------+-----------------+
+13 rows in set (0.00 sec)
+
+mysql> DESCRIBE clickStream_data;
++-----------+-------------+------+-----+-------------------+-----------------------------+
+| Field     | Type        | Null | Key | Default           | Extra                       |
++-----------+-------------+------+-----+-------------------+-----------------------------+
+| userID    | int(11)     | YES  |     | NULL              |                             |
+| timestamp | timestamp   | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
+| page      | varchar(50) | YES  |     | NULL              |                             |
++-----------+-------------+------+-----+-------------------+-----------------------------+
+3 rows in set (0.01 sec)
+
+mysql> udate table clickStream_data
+    -> modify userID VARCHAR(50);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'udate table clickStream_data
+modify userID VARCHAR(50)' at line 1
+mysql> update table clickStream_data modify userID VARCHAR(50);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table clickStream_data modify userID VARCHAR(50)' at line 1
+mysql> alter table clickStream_data modify column userID VARCHAR(50);
+Query OK, 13 rows affected (0.02 sec)
+Records: 13  Duplicates: 0  Warnings: 0
+
+mysql> delete from clickStream_data;
+Query OK, 13 rows affected (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/clickstream.csv' INTO TABLE clickStream_data FIELDS TERMINATED BY ',' IGNORE 1 LINES; 
+Query OK, 13 rows affected (0.00 sec)
+Records: 13  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select * from clickStream_data;
++--------+---------------------+-----------------+
+| userID | timestamp           | page            |
++--------+---------------------+-----------------+
+      |  | 2023-01-01 10:00:00 | homepage"
+  |1     | 2023-01-01 10:01:00 | product_page"
+      |  | 2023-01-01 10:02:00 | homepage"
+     |   | 2023-01-01 10:03:00 | cart_page"
+      |  | 2023-01-01 10:05:00 | homepage"
+  |3     | 2023-01-01 10:06:00 | product_page"
+     |   | 2023-01-01 10:07:00 | cart_page"
+      |  | 2023-01-01 10:09:00 | homepage"
+  |4     | 2023-01-01 10:10:00 | product_page"
+     |   | 2023-01-01 10:11:00 | cart_page"
+ |"4     | 2023-01-01 10:12:00 | checkout_page"
+      |  | 2023-01-01 10:15:00 | homepage"
+| "5     | 2023-01-01 10:16:00 | product_page"   |
++--------+---------------------+-----------------+
+13 rows in set (0.01 sec)
+
+mysql> select userID from clickStream_data;
++--------+
+| userID |
++--------+
+| "1     |
+| "1     |
+| "2     |
+| "2     |
+| "3     |
+| "3     |
+| "3     |
+| "4     |
+| "4     |
+| "4     |
+| "4     |
+| "5     |
+| "5     |
++--------+
+13 rows in set (0.00 sec)
+
+mysql> delete from clickStream_data;
+Query OK, 13 rows affected (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/clickstream.csv' INTO TABLE clickStream_data FIELDS TERMINATED BY ',' IGNORE 1 LINES; 
+Query OK, 13 rows affected (0.00 sec)
+Records: 13  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select * from clickstream;
+ERROR 1146 (42S02): Table 'E_Commerce_Tables.clickstream' doesn't exist
+mysql> select * from clickStream;
+ERROR 1146 (42S02): Table 'E_Commerce_Tables.clickStream' doesn't exist
+mysql> select  * from clickStream_data;
++--------+---------------------+----------------+
+| userID | timestamp           | page           |
++--------+---------------------+----------------+
+      |  | 2023-01-01 10:00:00 | homepage
+  |      | 2023-01-01 10:01:00 | product_page
+      |  | 2023-01-01 10:02:00 | homepage
+     |   | 2023-01-01 10:03:00 | cart_page
+      |  | 2023-01-01 10:05:00 | homepage
+  |      | 2023-01-01 10:06:00 | product_page
+     |   | 2023-01-01 10:07:00 | cart_page
+      |  | 2023-01-01 10:09:00 | homepage
+  |      | 2023-01-01 10:10:00 | product_page
+     |   | 2023-01-01 10:11:00 | cart_page
+ |4      | 2023-01-01 10:12:00 | checkout_page
+      |  | 2023-01-01 10:15:00 | homepage
+| 5      | 2023-01-01 10:16:00 | product_page   |
++--------+---------------------+----------------+
+13 rows in set (0.00 sec)
+
+mysql> select userID from clickStream_data;
++--------+
+| userID |
++--------+
+| 1      |
+| 1      |
+| 2      |
+| 2      |
+| 3      |
+| 3      |
+| 3      |
+| 4      |
+| 4      |
+| 4      |
+| 4      |
+| 5      |
+| 5      |
++--------+
+13 rows in set (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' IGNORE 1 LINES; 
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select * from custmomer_datal
+    -> ;
+ERROR 1146 (42S02): Table 'E_Commerce_Tables.custmomer_datal' doesn't exist
+mysql> select * from custmomer_data;
+ERROR 1146 (42S02): Table 'E_Commerce_Tables.custmomer_data' doesn't exist
+mysql> select * from customer_data;
++--------+----------------+------------------------------+
+| userID | name           | email                        |
++--------+----------------+------------------------------+
+       | | John Doe       | john.doe@example.com"
+     |   | Jane Smith     | jane.smith@example.com"
+ |"3     | Robert Johnson | robert.johnson@example.com"
+     |   | Lisa Brown     | lisa.brown@example.com"
+| "5     | Michael Wilson | michael.wilson@example.com"  |
+        || John Doe       | john.doe@example.com
+      |  | Jane Smith     | jane.smith@example.com
+  |      | Robert Johnson | robert.johnson@example.com
+      |  | Lisa Brown     | lisa.brown@example.com
+| 5      | Michael Wilson | michael.wilson@example.com   |
++--------+----------------+------------------------------+
+10 rows in set (0.00 sec)
+
+mysql> select userID from customer_data;
++--------+
+| userID |
++--------+
+| "1     |
+| "2     |
+| "3     |
+| "4     |
+| "5     |
+| 1      |
+| 2      |
+| 3      |
+| 4      |
+| 5      |
++--------+
+10 rows in set (0.00 sec)
+
+mysql> delete from customer_data;
+Query OK, 10 rows affected (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/customer.csv' INTO TABLE customer_data FIELDS TERMINATED BY ',' IGNORE 1 LINES; 
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select userID from customer_data;
++--------+
+| userID |
++--------+
+| 1      |
+| 2      |
+| 3      |
+| 4      |
+| 5      |
++--------+
+5 rows in set (0.00 sec)
+
+mysql> LOAD DATA LOCAL INFILE '/home/training/InputFiles/purchase.csv' INTO TABLE purchase_data FIELDS TERMINATED BY ',' IGNORE 1 LINES; 
+Query OK, 5 rows affected (0.00 sec)
+Records: 5  Deleted: 0  Skipped: 0  Warnings: 0
+
+mysql> select * from purchase_data;
++--------+---------------------+--------+
+| userID | timestamp           | amount |
++--------+---------------------+--------+
+|      1 | 2023-01-01 10:05:00 | 100.00 |
+|      2 | 2023-01-01 10:08:00 | 150.00 |
+|      3 | 2023-01-01 10:09:00 | 200.00 |
+|      4 | 2023-01-01 10:13:00 | 120.00 |
+|      5 | 2023-01-01 10:17:00 |  80.00 |
++--------+---------------------+--------+
+5 rows in set (0.00 sec)
+
+mysql> describe purchase_data;
++-----------+---------------+------+-----+-------------------+-----------------------------+
+| Field     | Type          | Null | Key | Default           | Extra                       |
++-----------+---------------+------+-----+-------------------+-----------------------------+
+| userID    | int(11)       | YES  |     | NULL              |                             |
+| timestamp | timestamp     | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP |
+| amount    | decimal(10,2) | YES  |     | NULL              |                             |
++-----------+---------------+------+-----+-------------------+-----------------------------+
+3 rows in set (0.00 sec)
+
+mysql> alter table clickStream_data modify column userID INT(11);
+Query OK, 13 rows affected (0.01 sec)
+Records: 13  Duplicates: 0  Warnings: 0
+
+mysql> ALTER TABLE customer_data MODIFY COLUMN userID INT(11);
+Query OK, 5 rows affected (0.02 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> SELECT * FROM CUSTOMER_DATA;
+ERROR 1146 (42S02): Table 'E_Commerce_Tables.CUSTOMER_DATA' doesn't exist
+mysql> SELECT * FROM customer_data;
++--------+----------------+-----------------------------+
+| userID | name           | email                       |
++--------+----------------+-----------------------------+
+       | | John Doe       | john.doe@example.com
+     | 2 | Jane Smith     | jane.smith@example.com
+ |     3 | Robert Johnson | robert.johnson@example.com
+     | 4 | Lisa Brown     | lisa.brown@example.com
+|      5 | Michael Wilson | michael.wilson@example.com  |
++--------+----------------+-----------------------------+
+5 rows in set (0.00 sec)
+
+mysql> describe customer_data;
++--------+--------------+------+-----+---------+-------+
+| Field  | Type         | Null | Key | Default | Extra |
++--------+--------------+------+-----+---------+-------+
+| userID | int(11)      | YES  |     | NULL    |       |
+| name   | varchar(50)  | YES  |     | NULL    |       |
+| email  | varchar(100) | YES  |     | NULL    |       |
++--------+--------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> 
+mysql> use E_Commerce_Tables;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+mysql> alter table customer_data add primary key (userID);
+Query OK, 5 rows affected (0.04 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> alter table purchase_data add primary key (userID);
+Query OK, 5 rows affected (0.01 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> alter table clickStream_data add primary key (userID, timestamp);
+Query OK, 13 rows affected (0.02 sec)
+Records: 13  Duplicates: 0  Warnings: 0
+
+

@@ -1,0 +1,286 @@
+[training@localhost ~]$ ls
+derby.log  Downloads      InputFiles  Music     scripts    training_materials
+Desktop    eclipse        lib         Pictures  src        Videos
+Documents  HiveWorkSpace  movie.java  Public    Templates  workspace
+[training@localhost ~]$ cd InputFiles/
+[training@localhost InputFiles]$ ls
+clickstream.csv  customer.csv  mysqlcommnad  mysqlcommnad~  purchase.csv
+[training@localhost InputFiles]$ chmod -R +rw InputFiles;
+chmod: cannot access `InputFiles': No such file or directory
+[training@localhost InputFiles]$ cd ..
+[training@localhost ~]$ chmod -R +rw InputFiles;
+[training@localhost ~]$ cd InputFiles/
+[training@localhost InputFiles]$ ls
+clickstream.csv  customer.csv  mysqlcommnad  mysqlcommnad~  purchase.csv
+[training@localhost InputFiles]$ clear
+
+[training@localhost InputFiles]$ sqoop help
+usage: sqoop COMMAND [ARGS]
+
+Available commands:
+  codegen            Generate code to interact with database records
+  create-hive-table  Import a table definition into Hive
+  eval               Evaluate a SQL statement and display the results
+  export             Export an HDFS directory to a database table
+  help               List available commands
+  import             Import a table from a database to HDFS
+  import-all-tables  Import tables from a database to HDFS
+  job                Work with saved jobs
+  list-databases     List available databases on a server
+  list-tables        List available tables in a database
+  merge              Merge results of incremental imports
+  metastore          Run a standalone Sqoop metastore
+  version            Display version information
+
+See 'sqoop help COMMAND' for information on a specific command.
+[training@localhost InputFiles]$ 
+[training@localhost InputFiles]$ sqoop import \
+> --connect jdbc:mysql://localhost/E_Commerce_Tables \
+> --table clickStream_data --fields-terminated-by ',' \
+> --username training --password training
+23/07/18 11:17:38 WARN tool.BaseSqoopTool: Setting your password on the command-line is insecure. Consider using -P instead.
+23/07/18 11:17:38 INFO manager.MySQLManager: Preparing to use a MySQL streaming resultset.
+23/07/18 11:17:38 INFO tool.CodeGenTool: Beginning code generation
+23/07/18 11:17:39 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `clickStream_data` AS t LIMIT 1
+23/07/18 11:17:39 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `clickStream_data` AS t LIMIT 1
+23/07/18 11:17:39 INFO orm.CompilationManager: HADOOP_HOME is /usr/lib/hadoop
+Note: /tmp/sqoop-training/compile/ebc09b973b4a0951b1a267398bdb3143/clickStream_data.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+23/07/18 11:17:41 INFO orm.CompilationManager: Writing jar file: /tmp/sqoop-training/compile/ebc09b973b4a0951b1a267398bdb3143/clickStream_data.jar
+23/07/18 11:17:41 WARN manager.MySQLManager: It looks like you are importing from mysql.
+23/07/18 11:17:41 WARN manager.MySQLManager: This transfer can be faster! Use the --direct
+23/07/18 11:17:41 WARN manager.MySQLManager: option to exercise a MySQL-specific fast path.
+23/07/18 11:17:41 INFO manager.MySQLManager: Setting zero DATETIME behavior to convertToNull (mysql)
+23/07/18 11:17:41 ERROR tool.ImportTool: Error during import: No primary key could be found for table clickStream_data. Please specify one with --split-by or perform a sequential import with '-m 1'.
+[training@localhost InputFiles]$ 
+
+
+[training@localhost ~]$ ls
+derby.log  Downloads      InputFiles  Music     scripts    training_materials
+Desktop    eclipse        lib         Pictures  src        Videos
+Documents  HiveWorkSpace  movie.java  Public    Templates  workspace
+[training@localhost ~]$ cd InputFiles/
+[training@localhost InputFiles]$ ls
+clickstream.csv  customer.csv  mysqlcommnad  mysqlcommnad~  purchase.csv
+[training@localhost InputFiles]$ chmod -R +rw InputFiles;
+chmod: cannot access `InputFiles': No such file or directory
+[training@localhost InputFiles]$ cd ..
+[training@localhost ~]$ chmod -R +rw InputFiles;
+[training@localhost ~]$ cd InputFiles/
+[training@localhost InputFiles]$ ls
+clickstream.csv  customer.csv  mysqlcommnad  mysqlcommnad~  purchase.csv
+[training@localhost InputFiles]$ clear
+
+[training@localhost InputFiles]$ sqoop help
+usage: sqoop COMMAND [ARGS]
+
+Available commands:
+  codegen            Generate code to interact with database records
+  create-hive-table  Import a table definition into Hive
+  eval               Evaluate a SQL statement and display the results
+  export             Export an HDFS directory to a database table
+  help               List available commands
+  import             Import a table from a database to HDFS
+  import-all-tables  Import tables from a database to HDFS
+  job                Work with saved jobs
+  list-databases     List available databases on a server
+  list-tables        List available tables in a database
+  merge              Merge results of incremental imports
+  metastore          Run a standalone Sqoop metastore
+  version            Display version information
+
+See 'sqoop help COMMAND' for information on a specific command.
+[training@localhost InputFiles]$ 
+[training@localhost InputFiles]$ sqoop import \
+> --connect jdbc:mysql://localhost/E_Commerce_Tables \
+> --table clickStream_data --fields-terminated-by ',' \
+> --username training --password training
+23/07/18 11:17:38 WARN tool.BaseSqoopTool: Setting your password on the command-line is insecure. Consider using -P instead.
+23/07/18 11:17:38 INFO manager.MySQLManager: Preparing to use a MySQL streaming resultset.
+23/07/18 11:17:38 INFO tool.CodeGenTool: Beginning code generation
+23/07/18 11:17:39 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `clickStream_data` AS t LIMIT 1
+23/07/18 11:17:39 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `clickStream_data` AS t LIMIT 1
+23/07/18 11:17:39 INFO orm.CompilationManager: HADOOP_HOME is /usr/lib/hadoop
+Note: /tmp/sqoop-training/compile/ebc09b973b4a0951b1a267398bdb3143/clickStream_data.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+23/07/18 11:17:41 INFO orm.CompilationManager: Writing jar file: /tmp/sqoop-training/compile/ebc09b973b4a0951b1a267398bdb3143/clickStream_data.jar
+23/07/18 11:17:41 WARN manager.MySQLManager: It looks like you are importing from mysql.
+23/07/18 11:17:41 WARN manager.MySQLManager: This transfer can be faster! Use the --direct
+23/07/18 11:17:41 WARN manager.MySQLManager: option to exercise a MySQL-specific fast path.
+23/07/18 11:17:41 INFO manager.MySQLManager: Setting zero DATETIME behavior to convertToNull (mysql)
+23/07/18 11:17:41 ERROR tool.ImportTool: Error during import: No primary key could be found for table clickStream_data. Please specify one with --split-by or perform a sequential import with '-m 1'.
+[training@localhost InputFiles]$ sqoop import --connect jdbc:mysql://localhost/E_Commerce_Tables --table customer_data --fields-terminated-by ',' --username training --password training
+23/07/18 11:25:11 WARN tool.BaseSqoopTool: Setting your password on the command-line is insecure. Consider using -P instead.
+23/07/18 11:25:11 INFO manager.MySQLManager: Preparing to use a MySQL streaming resultset.
+23/07/18 11:25:11 INFO tool.CodeGenTool: Beginning code generation
+23/07/18 11:25:11 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `customer_data` AS t LIMIT 1
+23/07/18 11:25:11 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `customer_data` AS t LIMIT 1
+23/07/18 11:25:11 INFO orm.CompilationManager: HADOOP_HOME is /usr/lib/hadoop
+Note: /tmp/sqoop-training/compile/7f1388fc4297427a5696f0eb248595e9/customer_data.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+23/07/18 11:25:13 INFO orm.CompilationManager: Writing jar file: /tmp/sqoop-training/compile/7f1388fc4297427a5696f0eb248595e9/customer_data.jar
+23/07/18 11:25:13 WARN manager.MySQLManager: It looks like you are importing from mysql.
+23/07/18 11:25:13 WARN manager.MySQLManager: This transfer can be faster! Use the --direct
+23/07/18 11:25:13 WARN manager.MySQLManager: option to exercise a MySQL-specific fast path.
+23/07/18 11:25:13 INFO manager.MySQLManager: Setting zero DATETIME behavior to convertToNull (mysql)
+23/07/18 11:25:13 ERROR tool.ImportTool: Error during import: No primary key could be found for table customer_data. Please specify one with --split-by or perform a sequential import with '-m 1'.
+[training@localhost InputFiles]$ sqoop import --connect jdbc:mysql://localhost/E_Commerce_Tables --table customer_data --fields-terminated-by ',' --username training --password training
+23/07/18 11:33:16 WARN tool.BaseSqoopTool: Setting your password on the command-line is insecure. Consider using -P instead.
+23/07/18 11:33:16 INFO manager.MySQLManager: Preparing to use a MySQL streaming resultset.
+23/07/18 11:33:16 INFO tool.CodeGenTool: Beginning code generation
+23/07/18 11:33:17 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `customer_data` AS t LIMIT 1
+23/07/18 11:33:17 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `customer_data` AS t LIMIT 1
+23/07/18 11:33:17 INFO orm.CompilationManager: HADOOP_HOME is /usr/lib/hadoop
+Note: /tmp/sqoop-training/compile/48600e557b94abd4b6bcd575660fc1a7/customer_data.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+23/07/18 11:33:18 INFO orm.CompilationManager: Writing jar file: /tmp/sqoop-training/compile/48600e557b94abd4b6bcd575660fc1a7/customer_data.jar
+23/07/18 11:33:18 WARN manager.MySQLManager: It looks like you are importing from mysql.
+23/07/18 11:33:18 WARN manager.MySQLManager: This transfer can be faster! Use the --direct
+23/07/18 11:33:18 WARN manager.MySQLManager: option to exercise a MySQL-specific fast path.
+23/07/18 11:33:18 INFO manager.MySQLManager: Setting zero DATETIME behavior to convertToNull (mysql)
+23/07/18 11:33:19 INFO mapreduce.ImportJobBase: Beginning import of customer_data
+23/07/18 11:33:20 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+23/07/18 11:33:23 INFO db.DataDrivenDBInputFormat: BoundingValsQuery: SELECT MIN(`userID`), MAX(`userID`) FROM `customer_data`
+23/07/18 11:33:24 INFO mapred.JobClient: Running job: job_202307180941_0001
+23/07/18 11:33:25 INFO mapred.JobClient:  map 0% reduce 0%
+23/07/18 11:33:38 INFO mapred.JobClient:  map 25% reduce 0%
+23/07/18 11:33:39 INFO mapred.JobClient:  map 50% reduce 0%
+23/07/18 11:33:45 INFO mapred.JobClient:  map 100% reduce 0%
+23/07/18 11:33:48 INFO mapred.JobClient: Job complete: job_202307180941_0001
+23/07/18 11:33:48 INFO mapred.JobClient: Counters: 23
+23/07/18 11:33:48 INFO mapred.JobClient:   File System Counters
+23/07/18 11:33:48 INFO mapred.JobClient:     FILE: Number of bytes read=0
+23/07/18 11:33:48 INFO mapred.JobClient:     FILE: Number of bytes written=796848
+23/07/18 11:33:48 INFO mapred.JobClient:     FILE: Number of read operations=0
+23/07/18 11:33:48 INFO mapred.JobClient:     FILE: Number of large read operations=0
+23/07/18 11:33:48 INFO mapred.JobClient:     FILE: Number of write operations=0
+23/07/18 11:33:48 INFO mapred.JobClient:     HDFS: Number of bytes read=425
+23/07/18 11:33:48 INFO mapred.JobClient:     HDFS: Number of bytes written=196
+23/07/18 11:33:48 INFO mapred.JobClient:     HDFS: Number of read operations=4
+23/07/18 11:33:48 INFO mapred.JobClient:     HDFS: Number of large read operations=0
+23/07/18 11:33:48 INFO mapred.JobClient:     HDFS: Number of write operations=4
+23/07/18 11:33:48 INFO mapred.JobClient:   Job Counters 
+23/07/18 11:33:48 INFO mapred.JobClient:     Launched map tasks=4
+23/07/18 11:33:48 INFO mapred.JobClient:     Total time spent by all maps in occupied slots (ms)=33547
+23/07/18 11:33:48 INFO mapred.JobClient:     Total time spent by all reduces in occupied slots (ms)=0
+23/07/18 11:33:48 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+23/07/18 11:33:48 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+23/07/18 11:33:48 INFO mapred.JobClient:   Map-Reduce Framework
+23/07/18 11:33:48 INFO mapred.JobClient:     Map input records=5
+23/07/18 11:33:48 INFO mapred.JobClient:     Map output records=5
+23/07/18 11:33:48 INFO mapred.JobClient:     Input split bytes=425
+23/07/18 11:33:48 INFO mapred.JobClient:     Spilled Records=0
+23/07/18 11:33:48 INFO mapred.JobClient:     CPU time spent (ms)=4910
+23/07/18 11:33:48 INFO mapred.JobClient:     Physical memory (bytes) snapshot=337027072
+23/07/18 11:33:48 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=1607749632
+23/07/18 11:33:48 INFO mapred.JobClient:     Total committed heap usage (bytes)=254803968
+23/07/18 11:33:48 INFO mapreduce.ImportJobBase: Transferred 0 bytes in 29.2321 seconds (0 bytes/sec)
+23/07/18 11:33:48 INFO mapreduce.ImportJobBase: Retrieved 5 records.
+[training@localhost InputFiles]$ sqoop import --connect jdbc:mysql://localhost/E_Commerce_Tables --table purchase_data --fields-terminated-by ',' --username training --password training
+23/07/18 11:34:51 WARN tool.BaseSqoopTool: Setting your password on the command-line is insecure. Consider using -P instead.
+23/07/18 11:34:51 INFO manager.MySQLManager: Preparing to use a MySQL streaming resultset.
+23/07/18 11:34:51 INFO tool.CodeGenTool: Beginning code generation
+23/07/18 11:34:51 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `purchase_data` AS t LIMIT 1
+23/07/18 11:34:51 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `purchase_data` AS t LIMIT 1
+23/07/18 11:34:51 INFO orm.CompilationManager: HADOOP_HOME is /usr/lib/hadoop
+Note: /tmp/sqoop-training/compile/c9ae3333098f1e955d97d8b46971ff57/purchase_data.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+23/07/18 11:34:53 INFO orm.CompilationManager: Writing jar file: /tmp/sqoop-training/compile/c9ae3333098f1e955d97d8b46971ff57/purchase_data.jar
+23/07/18 11:34:54 WARN manager.MySQLManager: It looks like you are importing from mysql.
+23/07/18 11:34:54 WARN manager.MySQLManager: This transfer can be faster! Use the --direct
+23/07/18 11:34:54 WARN manager.MySQLManager: option to exercise a MySQL-specific fast path.
+23/07/18 11:34:54 INFO manager.MySQLManager: Setting zero DATETIME behavior to convertToNull (mysql)
+23/07/18 11:34:54 INFO mapreduce.ImportJobBase: Beginning import of purchase_data
+23/07/18 11:34:55 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+23/07/18 11:34:57 INFO db.DataDrivenDBInputFormat: BoundingValsQuery: SELECT MIN(`userID`), MAX(`userID`) FROM `purchase_data`
+23/07/18 11:34:57 INFO mapred.JobClient: Running job: job_202307180941_0002
+23/07/18 11:34:58 INFO mapred.JobClient:  map 0% reduce 0%
+23/07/18 11:35:09 INFO mapred.JobClient:  map 50% reduce 0%
+23/07/18 11:35:15 INFO mapred.JobClient:  map 75% reduce 0%
+23/07/18 11:35:17 INFO mapred.JobClient:  map 100% reduce 0%
+23/07/18 11:35:19 INFO mapred.JobClient: Job complete: job_202307180941_0002
+23/07/18 11:35:19 INFO mapred.JobClient: Counters: 23
+23/07/18 11:35:19 INFO mapred.JobClient:   File System Counters
+23/07/18 11:35:19 INFO mapred.JobClient:     FILE: Number of bytes read=0
+23/07/18 11:35:19 INFO mapred.JobClient:     FILE: Number of bytes written=796896
+23/07/18 11:35:19 INFO mapred.JobClient:     FILE: Number of read operations=0
+23/07/18 11:35:19 INFO mapred.JobClient:     FILE: Number of large read operations=0
+23/07/18 11:35:19 INFO mapred.JobClient:     FILE: Number of write operations=0
+23/07/18 11:35:19 INFO mapred.JobClient:     HDFS: Number of bytes read=425
+23/07/18 11:35:19 INFO mapred.JobClient:     HDFS: Number of bytes written=154
+23/07/18 11:35:19 INFO mapred.JobClient:     HDFS: Number of read operations=4
+23/07/18 11:35:19 INFO mapred.JobClient:     HDFS: Number of large read operations=0
+23/07/18 11:35:19 INFO mapred.JobClient:     HDFS: Number of write operations=4
+23/07/18 11:35:19 INFO mapred.JobClient:   Job Counters 
+23/07/18 11:35:19 INFO mapred.JobClient:     Launched map tasks=4
+23/07/18 11:35:19 INFO mapred.JobClient:     Total time spent by all maps in occupied slots (ms)=33446
+23/07/18 11:35:19 INFO mapred.JobClient:     Total time spent by all reduces in occupied slots (ms)=0
+23/07/18 11:35:19 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+23/07/18 11:35:19 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+23/07/18 11:35:19 INFO mapred.JobClient:   Map-Reduce Framework
+23/07/18 11:35:19 INFO mapred.JobClient:     Map input records=5
+23/07/18 11:35:19 INFO mapred.JobClient:     Map output records=5
+23/07/18 11:35:19 INFO mapred.JobClient:     Input split bytes=425
+23/07/18 11:35:19 INFO mapred.JobClient:     Spilled Records=0
+23/07/18 11:35:19 INFO mapred.JobClient:     CPU time spent (ms)=5620
+23/07/18 11:35:19 INFO mapred.JobClient:     Physical memory (bytes) snapshot=342863872
+23/07/18 11:35:19 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=1610956800
+23/07/18 11:35:19 INFO mapred.JobClient:     Total committed heap usage (bytes)=254803968
+23/07/18 11:35:19 INFO mapreduce.ImportJobBase: Transferred 0 bytes in 25.162 seconds (0 bytes/sec)
+23/07/18 11:35:19 INFO mapreduce.ImportJobBase: Retrieved 5 records.
+[training@localhost InputFiles]$ sqoop import --connect jdbc:mysql://localhost/E_Commerce_Tables --table clickStream_data --fields-terminated-by ',' --username training --password training
+23/07/18 11:36:35 WARN tool.BaseSqoopTool: Setting your password on the command-line is insecure. Consider using -P instead.
+23/07/18 11:36:35 INFO manager.MySQLManager: Preparing to use a MySQL streaming resultset.
+23/07/18 11:36:35 INFO tool.CodeGenTool: Beginning code generation
+23/07/18 11:36:35 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `clickStream_data` AS t LIMIT 1
+23/07/18 11:36:35 INFO manager.SqlManager: Executing SQL statement: SELECT t.* FROM `clickStream_data` AS t LIMIT 1
+23/07/18 11:36:35 INFO orm.CompilationManager: HADOOP_HOME is /usr/lib/hadoop
+Note: /tmp/sqoop-training/compile/58575a80ecf263261bbf95ee00106093/clickStream_data.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+23/07/18 11:36:37 INFO orm.CompilationManager: Writing jar file: /tmp/sqoop-training/compile/58575a80ecf263261bbf95ee00106093/clickStream_data.jar
+23/07/18 11:36:37 WARN manager.MySQLManager: It looks like you are importing from mysql.
+23/07/18 11:36:37 WARN manager.MySQLManager: This transfer can be faster! Use the --direct
+23/07/18 11:36:37 WARN manager.MySQLManager: option to exercise a MySQL-specific fast path.
+23/07/18 11:36:37 INFO manager.MySQLManager: Setting zero DATETIME behavior to convertToNull (mysql)
+23/07/18 11:36:37 WARN manager.CatalogQueryManager: The table clickStream_data contains a multi-column primary key. Sqoop will default to the column userID only for this job.
+23/07/18 11:36:37 WARN manager.CatalogQueryManager: The table clickStream_data contains a multi-column primary key. Sqoop will default to the column userID only for this job.
+23/07/18 11:36:37 INFO mapreduce.ImportJobBase: Beginning import of clickStream_data
+23/07/18 11:36:39 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+23/07/18 11:36:40 INFO db.DataDrivenDBInputFormat: BoundingValsQuery: SELECT MIN(`userID`), MAX(`userID`) FROM `clickStream_data`
+23/07/18 11:36:40 INFO mapred.JobClient: Running job: job_202307180941_0003
+23/07/18 11:36:41 INFO mapred.JobClient:  map 0% reduce 0%
+23/07/18 11:36:52 INFO mapred.JobClient:  map 50% reduce 0%
+23/07/18 11:36:58 INFO mapred.JobClient:  map 75% reduce 0%
+23/07/18 11:36:59 INFO mapred.JobClient:  map 100% reduce 0%
+23/07/18 11:37:02 INFO mapred.JobClient: Job complete: job_202307180941_0003
+23/07/18 11:37:02 INFO mapred.JobClient: Counters: 23
+23/07/18 11:37:02 INFO mapred.JobClient:   File System Counters
+23/07/18 11:37:02 INFO mapred.JobClient:     FILE: Number of bytes read=0
+23/07/18 11:37:02 INFO mapred.JobClient:     FILE: Number of bytes written=796916
+23/07/18 11:37:02 INFO mapred.JobClient:     FILE: Number of read operations=0
+23/07/18 11:37:02 INFO mapred.JobClient:     FILE: Number of large read operations=0
+23/07/18 11:37:02 INFO mapred.JobClient:     FILE: Number of write operations=0
+23/07/18 11:37:02 INFO mapred.JobClient:     HDFS: Number of bytes read=425
+23/07/18 11:37:02 INFO mapred.JobClient:     HDFS: Number of bytes written=465
+23/07/18 11:37:02 INFO mapred.JobClient:     HDFS: Number of read operations=4
+23/07/18 11:37:02 INFO mapred.JobClient:     HDFS: Number of large read operations=0
+23/07/18 11:37:02 INFO mapred.JobClient:     HDFS: Number of write operations=4
+23/07/18 11:37:02 INFO mapred.JobClient:   Job Counters 
+23/07/18 11:37:02 INFO mapred.JobClient:     Launched map tasks=4
+23/07/18 11:37:02 INFO mapred.JobClient:     Total time spent by all maps in occupied slots (ms)=32951
+23/07/18 11:37:02 INFO mapred.JobClient:     Total time spent by all reduces in occupied slots (ms)=0
+23/07/18 11:37:02 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+23/07/18 11:37:02 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+23/07/18 11:37:02 INFO mapred.JobClient:   Map-Reduce Framework
+23/07/18 11:37:02 INFO mapred.JobClient:     Map input records=13
+23/07/18 11:37:02 INFO mapred.JobClient:     Map output records=13
+23/07/18 11:37:02 INFO mapred.JobClient:     Input split bytes=425
+23/07/18 11:37:02 INFO mapred.JobClient:     Spilled Records=0
+23/07/18 11:37:02 INFO mapred.JobClient:     CPU time spent (ms)=4810
+23/07/18 11:37:02 INFO mapred.JobClient:     Physical memory (bytes) snapshot=343003136
+23/07/18 11:37:02 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=1611907072
+23/07/18 11:37:02 INFO mapred.JobClient:     Total committed heap usage (bytes)=254803968
+23/07/18 11:37:02 INFO mapreduce.ImportJobBase: Transferred 0 bytes in 25.0649 seconds (0 bytes/sec)
+23/07/18 11:37:02 INFO mapreduce.ImportJobBase: Retrieved 13 records.
+[training@localhost InputFiles]$ 
+

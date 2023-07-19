@@ -1,0 +1,333 @@
+[training@localhost ~]$ hive
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+Hive history file=/tmp/training/hive_job_log_training_202307181731_1554205291.txt
+hive> create table clickStream_data(
+    > userID INT,
+    > timestamp TIMESTAMP,
+    > page STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;        
+FAILED: ParseException line 3:0 mismatched input 'timestamp' expecting Identifier near ',' in column specification
+
+hive> create table clickStream_data(                                      
+    > userID INT,                                                         
+    > `timestamp` TIMESTAMP,                                              
+    > page STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STOREILE;
+FAILED: ParseException line 4:59 mismatched input 'STOREILE' expecting EOF near '',''
+
+hive> create table clickStream_data(                                      
+    > `timestamp` TIMESTAMP,                                              
+    > page STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;                
+OK
+Time taken: 8.448 seconds
+hive> create table customer_data(                                                   
+    > userID INT,                                                                   
+    > name STRING,
+    > email STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+OK
+Time taken: 0.129 seconds
+hive> LOAD DATA INPATH '/home/training/InputFiles/clickstream.csv' INTO TABLE ClickStream_data;
+FAILED: SemanticException Line 1:17 Invalid path ''/home/training/InputFiles/clickstream.csv'': No files matching path hdfs://0.0.0.0:8020/home/training/InputFiles/clickstream.csv
+hive> LOAD DATA INPATH 'e_commerce_project/clickstream.csv' INTO TABLE ClickStream_data;       
+Loading data to table default.clickstream_data
+OK
+Time taken: 1.792 seconds
+hive> LOAD DATA INPATH 'e_commerce_project/customer.csv' INTO TABLE customer_data;      
+Loading data to table default.customer_data
+OK
+Time taken: 0.62 seconds
+hive> crete table purchase_data(
+    > userID INT, `timestamp` TIMESTAMP, amount DECIMAL(10,2) 
+    > ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+FAILED: ParseException line 1:0 cannot recognize input near 'crete' 'table' 'purchase_data'
+
+hive> create table purchase_data(                                      
+    > userID INT, `timestamp` TIMESTAMP, amount DECIMAL(10,2))         
+    > ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+FAILED: ParseException line 2:42 cannot recognize input near 'DECIMAL' '(' '10' in column type
+
+hive> create table purchase_data(                                      
+    > userID INT, `timestamp` TIMESTAMP, amount DOUBLE)                
+    > ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+OK
+Time taken: 0.271 seconds
+hive> LOAD DATA INPATH 'e_commerce_project/purchase.csv' INTO TABLE purchase_data;      
+Loading data to table default.purchase_data
+OK
+Time taken: 0.506 seconds
+hive> select * from purchase_data;
+OK
+Failed with exception java.io.IOException:java.lang.IllegalArgumentException: Timestamp format must be yyyy-mm-dd hh:mm:ss[.fffffffff]
+Time taken: 0.813 seconds
+hive> select * from customer_data;                                                
+OK
+NULL	name	email
+1	John Doe	john.doe@example.com
+2	Jane Smith	jane.smith@example.com
+3	Robert Johnson	robert.johnson@example.com
+4	Lisa Brown	lisa.brown@example.com
+5	Michael Wilson	michael.wilson@example.com
+Time taken: 0.232 seconds
+hive> ALTER TABLE purchase_data 
+    > change timestamp STRING;
+FAILED: ParseException line 2:7 mismatched input 'timestamp' expecting Identifier near 'change' in rename column name
+
+hive> ALTER TABLE purchase_data 
+    > change `timestamp` STRING;
+FAILED: ParseException line 2:19 mismatched input 'STRING' expecting Identifier near '`timestamp`' in rename column name
+
+hive> ALTER TABLE purchase_data 
+    > change timestamp STRING;  
+FAILED: ParseException line 2:7 mismatched input 'timestamp' expecting Identifier near 'change' in rename column name
+
+hive> DROP TABLE purchase_data;
+OK
+Time taken: 1.96 seconds
+hive> drop table  clickStream_data
+    > ;
+OK
+Time taken: 3.381 seconds
+hive> create table clickStream_data(                                                           
+    > userID INT,
+    > timestamp STRING,
+    > page STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+FAILED: ParseException line 3:0 mismatched input 'timestamp' expecting Identifier near ',' in column specification
+
+hive> create table clickStream_data(                                                
+    > `timestamp` STRING,                                                           
+    > page STRING) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+OK
+Time taken: 0.36 seconds
+hive> LOAD DATA INPATH 'e_commerce_project/clickstream.csv' INTO TABLE ClickStream_data;
+FAILED: SemanticException Line 1:17 Invalid path ''e_commerce_project/clickstream.csv'': No files matching path hdfs://0.0.0.0:8020/user/training/e_commerce_project/clickstream.csv
+hive> LOAD DATA INPATH 'e_commerce_project/clickstream.csv, INTO TABLE clickStream_data;
+FAILED: ParseException line 1:18 mismatched input 'e_commerce_project' expecting StringLiteral near 'INPATH' in load statement
+
+hive> LOAD DATA INPATH 'e_commerce_project/clickstream.csv' INTO TABLE clickStream_data;
+FAILED: SemanticException Line 1:17 Invalid path ''e_commerce_project/clickstream.csv'': No files matching path hdfs://0.0.0.0:8020/user/training/e_commerce_project/clickstream.csv
+hive> LOAD DATA INPATH 'e_commerce_project/clickstream.csv' INTO TABLE clickStream_data;
+FAILED: SemanticException Line 1:17 Invalid path ''e_commerce_project/clickstream.csv'': No files matching path hdfs://0.0.0.0:8020/user/training/e_commerce_project/clickstream.csv
+hive> 
+
+
+[training@localhost ~]$ hive
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+Hive history file=/tmp/training/hive_job_log_training_202307190657_671369406.txt
+hive> select * from clickstream_data;
+OK
+Time taken: 5.018 seconds
+hive> select * from customer_data;   
+OK
+NULL	name	email
+1	John Doe	john.doe@example.com
+2	Jane Smith	jane.smith@example.com
+3	Robert Johnson	robert.johnson@example.com
+4	Lisa Brown	lisa.brown@example.com
+5	Michael Wilson	michael.wilson@example.com
+Time taken: 0.507 seconds
+hive> select count(*) from clickstream_data;
+Total MapReduce jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapred.reduce.tasks=<number>
+Starting Job = job_202307190657_0001, Tracking URL = http://0.0.0.0:50030/jobdetails.jsp?jobid=job_202307190657_0001
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -Dmapred.job.tracker=0.0.0.0:8021 -kill job_202307190657_0001
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2023-07-19 07:07:08,831 Stage-1 map = 0%,  reduce = 0%
+2023-07-19 07:07:13,314 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.36 sec
+2023-07-19 07:07:14,330 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.36 sec
+2023-07-19 07:07:15,347 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.36 sec
+2023-07-19 07:07:16,362 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.36 sec
+2023-07-19 07:07:17,376 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.36 sec
+2023-07-19 07:07:18,393 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.65 sec
+2023-07-19 07:07:19,412 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.65 sec
+2023-07-19 07:07:20,424 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.65 sec
+2023-07-19 07:07:21,447 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.65 sec
+MapReduce Total cumulative CPU time: 3 seconds 650 msec
+Ended Job = job_202307190657_0001
+MapReduce Jobs Launched: 
+Job 0: Map: 1  Reduce: 1   Cumulative CPU: 3.65 sec   HDFS Read: 0 HDFS Write: 0 SUCCESS
+Total MapReduce CPU Time Spent: 3 seconds 650 msec
+OK
+0
+Time taken: 20.686 seconds
+hive> describe clickstream_data;
+OK
+timestamp	string	
+page	string	
+Time taken: 0.12 seconds
+hive> drop table clickstream_data;
+OK
+Time taken: 0.493 seconds
+hive> create table clickstream_data(userID INT , 
+Display all 409 possibilities? (y or n) 
+hive> create table clickstream_data(userID INT ,timestamp STRING , page STRING)
+    > ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;
+FAILED: ParseException line 1:42 mismatched input 'timestamp' expecting Identifier near ',' in column specification
+
+hive> create table clickstream_data(userID INT ,timestamps STRING , page STRING)
+    > ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE;         
+OK
+Time taken: 0.282 seconds
+hive> LOAD DATA INPATH 'e_commerce_project/clickstream.csv' INTO TABLE clickstream_data;
+Loading data to table default.clickstream_data
+OK
+Time taken: 0.352 seconds
+hive> select * from clickstream_data;
+OK
+NULL	timestamp	page
+1	2023-01-01 10:00:00	homepage
+1	2023-01-01 10:01:00	product_page
+2	2023-01-01 10:02:00	homepage
+2	2023-01-01 10:03:00	cart_page
+3	2023-01-01 10:05:00	homepage
+3	2023-01-01 10:06:00	product_page
+3	2023-01-01 10:07:00	cart_page
+4	2023-01-01 10:09:00	homepage
+4	2023-01-01 10:10:00	product_page
+4	2023-01-01 10:11:00	cart_page
+4	2023-01-01 10:12:00	checkout_page
+5	2023-01-01 10:15:00	homepage
+5	2023-01-01 10:16:00	product_page
+Time taken: 0.147 seconds
+hive> create table purchase_data(userID INT, timestamps STRING , amount DOUBLE)
+    > ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS TEXTFILE; 
+OK
+Time taken: 0.07 seconds
+hive> LOAD DATA INPATH 'e_commerce_project/purchase.csv' INTO TABLE purchase_data; 
+Loading data to table default.purchase_data
+OK
+Time taken: 0.279 seconds
+hive> select * from purchase_data;
+OK
+NULL	timestamp	NULL
+1	2023-01-01 10:05:00	100.0
+2	2023-01-01 10:08:00	150.0
+3	2023-01-01 10:09:00	200.0
+4	2023-01-01 10:13:00	120.0
+5	2023-01-01 10:17:00	80.0
+Time taken: 0.124 seconds
+hive> 
+
+   > 
+    > hive> select                           
+    >     > count(case when userid = '' then 1 end) as blank_count_column1, 
+    >     > count(case when timestamps = '' then 1 end) as blank_count_column2,
+    >     > count(case when page = '' then 1 end) as blank_count_column3 from clickstream_data;
+FAILED: ParseException line 1:0 cannot recognize input near 'FAILED' ':' 'ParseException'
+
+hive> Total MapReduce jobs = 1
+    > Launching Job 1 out of 1
+    > Number of reduce tasks determined at compile time: 1
+    > In order to change the average load for a reducer (in bytes):
+    >   set hive.exec.reducers.bytes.per.reducer=<number>
+    > In order to limit the maximum number of reducers:
+    >   set hive.exec.reducers.max=<number>
+    > In order to set a constant number of reducers:
+    >   set mapred.reduce.tasks=<number>
+    > Starting Job = job_202307190657_0003, Tracking URL = http://0.0.0.0:50030/jobdetails.jsp?jobid=job_202307190657_0003
+    > Kill Command = /usr/lib/hadoop/bin/hadoop job  -Dmapred.job.tracker=0.0.0.0:8021 -kill job_202307190657_0003
+    > Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+    > 2023-07-19 08:02:34,705 Stage-1 map = 0%,  reduce = 0%
+    > 2023-07-19 08:02:38,771 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.77 sec
+    > 2023-07-19 08:02:39,802 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.77 sec
+    > 2023-07-19 08:02:40,823 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.77 sec
+    > 2023-07-19 08:02:41,856 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.77 sec
+    > 2023-07-19 08:02:42,877 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.77 sec
+    > 2023-07-19 08:02:43,893 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.77 sec
+    > 2023-07-19 08:02:44,916 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 4.21 sec
+    > 2023-07-19 08:02:45,937 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 4.21 sec
+    > 2023-07-19 08:02:46,962 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 4.21 sec
+    > 2023-07-19 08:02:47,984 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 4.21 sec
+    > MapReduce Total cumulative CPU time: 4 seconds 210 msec
+    > Ended Job = job_202307190657_0003
+    > MapReduce Jobs Launched: 
+    > Job 0: Map: 1  Reduce: 1   Cumulative CPU: 4.21 sec   HDFS Read: 0 HDFS Write: 0 SUCCESS
+    > Total MapReduce CPU Time Spent: 4 seconds 210 msec
+    > OK
+    > 000
+    > Time taken: 18.404 seconds
+
+hive> select min(amount) , max(amount) from purchase_data;
+Total MapReduce jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapred.reduce.tasks=<number>
+Starting Job = job_202307190657_0004, Tracking URL = http://0.0.0.0:50030/jobdetails.jsp?jobid=job_202307190657_0004
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -Dmapred.job.tracker=0.0.0.0:8021 -kill job_202307190657_0004
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2023-07-19 08:10:04,552 Stage-1 map = 0%,  reduce = 0%
+2023-07-19 08:10:09,643 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.26 sec
+2023-07-19 08:10:10,667 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.26 sec
+2023-07-19 08:10:11,688 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.26 sec
+2023-07-19 08:10:12,711 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.26 sec
+2023-07-19 08:10:13,732 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.26 sec
+2023-07-19 08:10:14,753 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 1.26 sec
+2023-07-19 08:10:15,777 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.76 sec
+2023-07-19 08:10:16,793 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.76 sec
+2023-07-19 08:10:17,811 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.76 sec
+2023-07-19 08:10:18,833 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 3.76 sec
+MapReduce Total cumulative CPU time: 3 seconds 760 msec
+Ended Job = job_202307190657_0004
+MapReduce Jobs Launched: 
+Job 0: Map: 1  Reduce: 1   Cumulative CPU: 3.76 sec   HDFS Read: 0 HDFS Write: 0 SUCCESS
+Total MapReduce CPU Time Spent: 3 seconds 760 msec
+OK
+80.0	200.0
+Time taken: 25.251 seconds
+
+
+
+hive> select customer_data.name , customer_data.email , purchase_data.amount , purchase.timestamps
+    > from customer_data join purchase_data on customer_data.userid = purchase_data.userid;       
+FAILED: SemanticException [Error 10004]: Line 1:73 Invalid table alias or column reference 'purchase': (possible column names are: _col0, _col1, _col2, _col5, _col6, _col7)
+hive> select customer_data.name , customer_data.email , purchase_data.amount , purchase_data.timestamps
+    > from customer_data join purchase_data on customer_data.userid = purchase_data.userid;            
+Total MapReduce jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapred.reduce.tasks=<number>
+Starting Job = job_202307190657_0005, Tracking URL = http://0.0.0.0:50030/jobdetails.jsp?jobid=job_202307190657_0005
+Kill Command = /usr/lib/hadoop/bin/hadoop job  -Dmapred.job.tracker=0.0.0.0:8021 -kill job_202307190657_0005
+Hadoop job information for Stage-1: number of mappers: 2; number of reducers: 1
+2023-07-19 08:22:50,994 Stage-1 map = 0%,  reduce = 0%
+2023-07-19 08:22:57,111 Stage-1 map = 50%,  reduce = 0%, Cumulative CPU 2.27 sec
+2023-07-19 08:22:58,131 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 4.61 sec
+2023-07-19 08:22:59,163 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 4.61 sec
+2023-07-19 08:23:00,186 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 4.61 sec
+2023-07-19 08:23:01,205 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 4.61 sec
+2023-07-19 08:23:02,221 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 4.61 sec
+2023-07-19 08:23:03,244 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 4.61 sec
+2023-07-19 08:23:04,270 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 7.55 sec
+2023-07-19 08:23:05,300 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 7.55 sec
+2023-07-19 08:23:06,325 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 7.55 sec
+2023-07-19 08:23:07,345 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 7.55 sec
+2023-07-19 08:23:08,365 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 7.55 sec
+2023-07-19 08:23:09,408 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 7.55 sec
+MapReduce Total cumulative CPU time: 7 seconds 550 msec
+Ended Job = job_202307190657_0005
+MapReduce Jobs Launched: 
+Job 0: Map: 2  Reduce: 1   Cumulative CPU: 7.55 sec   HDFS Read: 0 HDFS Write: 0 SUCCESS
+Total MapReduce CPU Time Spent: 7 seconds 550 msec
+OK
+John Doe	john.doe@example.com	100.0	2023-01-01 10:05:00
+Jane Smith	jane.smith@example.com	150.0	2023-01-01 10:08:00
+Robert Johnson	robert.johnson@example.com	200.0	2023-01-01 10:09:00
+Lisa Brown	lisa.brown@example.com	120.0	2023-01-01 10:13:00
+Michael Wilson	michael.wilson@example.com	80.0	2023-01-01 10:17:00
+Time taken: 24.244 seconds
+
+
