@@ -90,6 +90,17 @@ DATA ENRICHMENT
 hive> select customer_data.name , customer_data.email , purchase_data.amount , purchase.timestamps
     > from customer_data join purchase_data on customer_data.userid = purchase_data.userid;
 
+OUTPUT 4
+HIVE QUERY 
+.  select count(distinct userid) from customer_data;
+
+. select sum(amount) from purchase_data;
+
+. hive> select customer_data.name , max(purchase_data.amount) from customer_data join purchase_data on customer_data.userid = purchase_data.userid group by(customer_data.name);
+
+. hive> select page, count(page) as c from clickStream_data group by page order by c; 
+
+
 
 
 
