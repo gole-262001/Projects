@@ -1,0 +1,12 @@
+hadoopusr@DESKTOP-1CFP2U7:~/pythoncode$ hadoop fs -ls /data
+2023-09-18 21:27:44,320 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 9 items
+-rw-r--r--   1 hadoopusr supergroup      99236 2023-08-30 16:34 /data/data1.json
+-rw-r--r--   1 hadoopusr supergroup     170574 2023-08-30 16:34 /data/data10.json
+-rw-r--r--   1 hadoopusr supergroup      81273 2023-08-30 16:34 /data/data2.json
+-rw-r--r--   1 hadoopusr supergroup     155456 2023-08-30 16:34 /data/data3.json
+-rw-r--r--   1 hadoopusr supergroup     196298 2023-08-30 16:34 /data/data4.json
+-rw-r--r--   1 hadoopusr supergroup      34190 2023-08-30 16:34 /data/data5.json
+-rw-r--r--   1 hadoopusr supergroup      77663 2023-08-30 16:34 /data/data6.json
+-rw-r--r--   1 hadoopusr supergroup     154849 2023-08-30 16:34 /data/data8.json
+-rw-r--r--   1 hadoopusr supergroup      99236 2023-08-30 16:34 /data/data9.json
