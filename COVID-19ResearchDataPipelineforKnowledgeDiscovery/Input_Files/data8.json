@@ -1,0 +1,4117 @@
+{
+    "paper_id": "00107b3ed5ec1cb7153bb26d71293337229c921c",
+    "metadata": {
+        "title": "Reusing and/or reprocessing the N95 face respirator mask or equivalent: An integrative review",
+        "authors": [
+            {
+                "first": "Elucir",
+                "middle": [],
+                "last": "Gir",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "PAHO/WHO Collaborating Centre for Nursing Research Development",
+                    "location": {
+                        "settlement": "Ribeir\u00e3o Preto",
+                        "region": "SP",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Mayra",
+                "middle": [
+                    "Gon\u00e7alves"
+                ],
+                "last": "Menegueti",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "PAHO/WHO Collaborating Centre for Nursing Research Development",
+                    "location": {
+                        "settlement": "Ribeir\u00e3o Preto",
+                        "region": "SP",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Laelson",
+                "middle": [],
+                "last": "Rochelle",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Milan\u00eas",
+                "middle": [],
+                "last": "Sousa",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "PAHO/WHO Collaborating Centre for Nursing Research Development",
+                    "location": {
+                        "settlement": "Ribeir\u00e3o Preto",
+                        "region": "SP",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Nat\u00e1lia",
+                "middle": [],
+                "last": "Maria",
+                "suffix": "",
+                "affiliation": {},
+                "email": ""
+            },
+            {
+                "first": "Vieira",
+                "middle": [],
+                "last": "Pereira-Caldeira",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "PAHO/WHO Collaborating Centre for Nursing Research Development",
+                    "location": {
+                        "settlement": "Ribeir\u00e3o Preto",
+                        "region": "SP",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Milton",
+                "middle": [],
+                "last": "Jorge De Carvalho",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "Centro Universit\u00e1rio Sa\u00fade ABC",
+                    "location": {
+                        "addrLine": "Santo Andr\u00e9",
+                        "region": "SP",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Renata",
+                "middle": [
+                    "Karina"
+                ],
+                "last": "Reis",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "PAHO/WHO Collaborating Centre for Nursing Research Development",
+                    "location": {
+                        "settlement": "Ribeir\u00e3o Preto",
+                        "region": "SP",
+                        "country": "Brazil"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "Objective: to analyze the scientific evidence available on the different reprocessing methods and the necessary conditions for reuse of the N95 face respirator mask or equivalent. Method: an integrative literature review. The PICO strategy was used to elaborate the question. The search was conducted in four databases: PubMed Sci Verse Scopus Web of Science and EMBASE considering any period of time. Results: a total of 32 studies were included from the 561 studies identified and they were presented in two categories: \"Conditions for reuse\" and \"Reprocessing the masks\". Of the evaluated research studies seven (21.8%) addressed the reuse of the N95 face respirator mask or equivalent and 25 (78.1%) evaluated different reprocessing methods namely: ultraviolet germicidal irradiation (14); hydrogen peroxide (8); vapor methods (14); using dry heat (5) and chemical methods (sodium hypochlorite [6] ethanol [4] and sodium chloride with sodium bicarbonate and dimethyldioxirane [1]). We emphasize that different methods were used in one same article. Conclusion:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "no evidence was found to support safe reprocessing of face respirator masks. In addition reuse is contraindicated due to the risk of self-contamination and inadequate sealing.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "According to this organization, the global stock of PPE is insufficient, given the global demand not only due to the number of COVID-19 cases, but also due to disinformation and panic buying and stocking, which aggravates the global shortage of PPE, especially for respiratory protective masks with a minimum particular filtration efficiency of 95%, such as the N95 type or equivalent (12) .",
+            "cite_spans": [
+                {
+                    "start": 385,
+                    "end": 389,
+                    "text": "(12)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The global shortage of FRMs led the health centers around the world to extend the use of these masks, although they were designed for single use (13) . In addition, the persistence and infectiousness of the infectious agents in the FRMs, such as the pandemic influenza A virus (H1N1) (14) , other coronaviruses (15) and more recently SARS-CoV-2, show the importance of developing guidelines and protocols related to decontamination of this PPE and stress the importance of proper handling of personal protective equipment during and after use in high-risk environments to minimize the probability of transmission by fomite (16) .",
+            "cite_spans": [
+                {
+                    "start": 145,
+                    "end": 149,
+                    "text": "(13)",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 284,
+                    "end": 288,
+                    "text": "(14)",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 311,
+                    "end": 315,
+                    "text": "(15)",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 623,
+                    "end": 627,
+                    "text": "(16)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "While there is no recommendation for reprocessing and reusing FRMs, such as N95 or equivalent, as a routine standard of conventional care, these measures may be needed during periods of scarcity to ensure continuous availability during a pandemic. However, it is noted that, for reprocessing FRMs, it is fundamental that the method is effective and able to reduce the load of pathogens, that it preserves the function of the face mask, and that it does not present any residual chemical risk (17) .",
+            "cite_spans": [
+                {
+                    "start": 492,
+                    "end": 496,
+                    "text": "(17)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "In Brazil, and in the face of the COVID-19 pandemic, the National Health Surveillance Agency (Ag\u00eancia Nacional de Vigil\u00e2ncia Sanit\u00e1ria, ANVISA) recommends that the health institutions are to establish their protocols on the use of PPE based on the exposure risks (for example: type of activity) and on the dynamics of pathogen transmission (for example: contact, droplet or aerosol). As for the N95 or equivalent masks, ANVISA has instructed the health professionals to use them for a longer period of time than that indicated by the manufacturers, as long as the mask is intact, clean and dry; and it points out that such an indication is required, as many professionals are reporting low inventories to treat critically-ill patients in the Intensive Care Unit (18) .",
+            "cite_spans": [
+                {
+                    "start": 762,
+                    "end": 766,
+                    "text": "(18)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "The search for solutions to meet the challenge of scarcity of FRMs is urgent (19) . In the literature, there is a variety of potential disinfection methods for FRMs, such as: (1) energy methods (for example: dry and moist ultraviolet heat and microwave-generated vapor) or (2) chemical methods (for example: alcohol, ethylene oxide, bleach and vaporized hydrogen peroxide) (20) (21) and some methods, such as ultraviolet germicidal irradiation, Gir E, Menegueti MG, Sousa LRM, Pereira-Caldeira NMV, Carvalho MJ, Reis RK.",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 81,
+                    "text": "(19)",
+                    "ref_id": null
+                },
+                {
+                    "start": 373,
+                    "end": 377,
+                    "text": "(20)",
+                    "ref_id": null
+                },
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "(21)",
+                    "ref_id": "BIBREF12"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "hydrogen peroxide vapor and moist heat, have been regarded as promising (17) , while others such as alcohol and ultraviolet light cause functional degradation in different degrees in the FRMs (20) .",
+            "cite_spans": [
+                {
+                    "start": 72,
+                    "end": 76,
+                    "text": "(17)",
+                    "ref_id": null
+                },
+                {
+                    "start": 192,
+                    "end": 196,
+                    "text": "(20)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "Given this context, the need is evidenced for a comprehensive literature review to identify the evidence on the safe methods for reprocessing and evidence that support or not reuse of N95 or equivalent masks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "To analyze the scientific evidence available on the different reprocessing methods and the necessary conditions for reuse of N95 face respirator masks or equivalent. and review report (22) .",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "(22)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Objective"
+        },
+        {
+            "text": "In addition, the recommendations of the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISM) (23) were followed. Registration on the The PICO strategy (24) ",
+            "cite_spans": [
+                {
+                    "start": 115,
+                    "end": 119,
+                    "text": "(23)",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 173,
+                    "end": 177,
+                    "text": "(24)",
+                    "ref_id": "BIBREF15"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Type of study"
+        },
+        {
+            "text": "The criterion for inclusion and selection of the studies was based on research studies that used some method to reuse and/or reprocess N95 face respirator masks or equivalent. There was no language restriction. The reprocessing techniques do not necessarily need to test the SARS-CoV-2 microorganism to be a potential method for reprocessing masks. It was for this reason that we decided not to limit the time for the search and not to restrict the search only to tests with SARS-CoV-2.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Selection criteria"
+        },
+        {
+            "text": "The search for the studies occurred by peers in June 2020, in the PubMed (US National Library of Medicine), Scopus, Web of Science and EMBASE databases by using controlled descriptors and keywords with the aid of boolean operators AND and OR. The search strategy used for all databases was [(\"Respiratory Protective Devices\" OR \"N95 respirator\" OR \"N95 mask\" OR \"filtering facepiece respirator\" OR \"FFP2\" OR \"PPE\") AND (\"reprocessing\" OR \"reuse\" OR \"decontamination\" OR \"disinfection\" OR \"disinfection\" OR \"sterilization\")].",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "The search results were inserted into the Ayres web application for selecting the studies. Two researchers read the titles and abstracts and selected the articles.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Disagreements related to selection were resolved by a third reviewer. Subsequently, full-reading of the articles selected in the first stage was also carried out by two reviewers. A third reviewer assessed the disagreements of the articles included. Consensus meetings were held in two stages.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "For evaluating the evidence level of the studies, the methodological design of each of them was considered and, as all the descriptive studies addressed clinical issues on intervention/treatment or diagnosis/diagnostic test, the classification used was that of seven levels, as follows: Level I -Evidence from systematic reviews or meta-analyses of multiple controlled clinical and randomized studies; Level II -Evidence from at least one well-designed randomized controlled clinical trial;",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "Level III -Evidence from well-designed non-randomized clinical trials; Level IV -Evidence from well-designed cohort and case-control studies; Level V -Evidence from systematic reviews using descriptive and qualitative methodologies; Level VI -Evidence from only one descriptive or qualitative study; Level VII -Evidence from concepts of authorities and/or expert committees' reports (25) .",
+            "cite_spans": [
+                {
+                    "start": 383,
+                    "end": 387,
+                    "text": "(25)",
+                    "ref_id": "BIBREF16"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data collection"
+        },
+        {
+            "text": "The articles involved in the analysis had their information extracted with the aid of a proposed roadmap (26) , determining the main data to be extracted.",
+            "cite_spans": [
+                {
+                    "start": 105,
+                    "end": 109,
+                    "text": "(26)",
+                    "ref_id": "BIBREF32"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Data extraction"
+        },
+        {
+            "text": "In this study, the following information was extracted:",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data extraction"
+        },
+        {
+            "text": "title; year of publication; reuse/reprocessing; method employed in reprocessing; authors' recommendations and level of evidence of the studies.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data extraction"
+        },
+        {
+            "text": "Data synthesis was descriptive. The reuse and reprocessing conditions identified were analyzed, grouped and compared. In this stage, two independent reviewers were responsible for extracting, analyzing and synthesizing the information. Figure 1 -Diagram corresponding to the search and selection of the studies according to PRISMA (23) A total of 32 studies that evaluated reuse and reprocessing of N95 respirator masks or equivalent were included, with most of the studies being conducted in the United States (26 = 81.3%). The level of evidence was mostly VI (25 = 78.1%). As for the language of the articles, 31 (96.9%) were in English. Figure 2 shows the characteristics of the studies according to the authors, year of publication/country, method employed in reprocessing, study type and level of evidence.",
+            "cite_spans": [
+                {
+                    "start": 331,
+                    "end": 335,
+                    "text": "(23)",
+                    "ref_id": "BIBREF14"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 236,
+                    "end": 244,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 640,
+                    "end": 648,
+                    "text": "Figure 2",
+                    "ref_id": "FIGREF3"
+                }
+            ],
+            "section": "Data extraction"
+        },
+        {
+            "text": "Gir E, Menegueti MG, Sousa LRM, Pereira-Caldeira NMV, Carvalho MJ, Reis RK.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data extraction"
+        },
+        {
+            "text": "(continues on the next page...)",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Data extraction"
+        },
+        {
+            "text": "Year/ Country Method employed Type of study",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors"
+        },
+        {
+            "text": "Viscusi, et al. (27) ",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "(27)",
+                    "ref_id": "BIBREF34"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Level of evidence"
+        },
+        {
+            "text": "Ultraviolet germicidal irradiation: Sterilgard III laminar flow cabinet equipped with UV-C \u2020 light. Fifteen-minute exposure to either side (external and internal) 176-181 mJ/cm 2 for each side of the FRMs * ; Ethylene oxide: Steri-Vac 5XL -exposure to ethylene oxide for 1 hour followed by 4 hours of aeration; hydrogen peroxide vapor: STERRAD \u00ae 100S; irradiation for microwave oven -2 minutes of total exposure (1 minute on each side of the FRMs * ) and bleach: thirty minutes of immersion in 0.6% sodium hypochlorite aqueous solution.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2009/ United States"
+        },
+        {
+            "text": "Descriptive study VI Bergman, et al. (28) ",
+            "cite_spans": [
+                {
+                    "start": 37,
+                    "end": 41,
+                    "text": "(28)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2009/ United States"
+        },
+        {
+            "text": "The FRMs * were decontaminated with microwave-generated vapor, following the manufacturer's instructions and then evaluated for water filtration and absorption efficiency in up to three exposures to vapor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2011/ United States"
+        },
+        {
+            "text": "Viscusi, et al. (34) ",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "(34)",
+                    "ref_id": "BIBREF42"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Descriptive study VI"
+        },
+        {
+            "text": "Ultraviolet germicidal irradiation, incubation by moist heat or decontamination using microwave-generated vapor. The participants' subjective evaluations about the odor, comfort and ease of wearing an FRM * were captured using a visual analog scale research.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2011/ United States"
+        },
+        {
+            "text": "Descriptive study VI Lore, et al. (35) ",
+            "cite_spans": [
+                {
+                    "start": 34,
+                    "end": 38,
+                    "text": "(35)",
+                    "ref_id": "BIBREF43"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2011/ United States"
+        },
+        {
+            "text": "Ultraviolet germicidal irradiation: a lamp was placed in a laminar flow cabinet; the wavelength of the UV-C \u2020 lamp varied from 1.6 mW cm 2 to 2.2 mW cm 2 ; microwave-generated vapor: 1,250 W (2,450 MHz) with 2-minute irradiation at full power and moist heat: a 6l (19 x 19 x 17 centimeters) sealable container was filled with 1 liter of tap water, placed in an oven and heated to 65 \u00b1 \u00b0C \u00a7 for 3 hours. The FRM * was treated in the oven for 20 minutes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2012/ United States"
+        },
+        {
+            "text": "Heimbuch, et al. (36) ",
+            "cite_spans": [
+                {
+                    "start": 17,
+                    "end": 21,
+                    "text": "(36)",
+                    "ref_id": "BIBREF44"
+                }
+            ],
+            "ref_spans": [],
+            "section": "study VI"
+        },
+        {
+            "text": "Three FRM * models were contaminated with mucin aerosols or viable Staphylococcus aureus and then cleaned with hypochlorite, benzalkonium chloride or antimicrobial towels. After cleaning, the FRMs * were separated into components (nasal cushion, fabrics and strips) and the contaminants were extracted and quantified. Filtration performance was evaluated when the FRMs * were clean.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2014/ United States"
+        },
+        {
+            "text": "Descriptive study VI Lindsley, et al. (37) ",
+            "cite_spans": [
+                {
+                    "start": 21,
+                    "end": 30,
+                    "text": "Lindsley,",
+                    "ref_id": null
+                },
+                {
+                    "start": 31,
+                    "end": 42,
+                    "text": "et al. (37)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "2014/ United States"
+        },
+        {
+            "text": "Four N95 FRM * models were decontaminated with UV doses of 120-950 J/cm. Subsequently, particle penetration was tested, as well as flow resistance, the breaking forces of the individual layers of the FRM * and the breaking force of the straps of these masks.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2015/ United States"
+        },
+        {
+            "text": "Descriptive study. VI Lin, et al. (38) ",
+            "cite_spans": [
+                {
+                    "start": 34,
+                    "end": 38,
+                    "text": "(38)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2015/ United States"
+        },
+        {
+            "text": "Physical decontamination using a traditional rice cooker made in Taiwan to provide dry heat; physical decontamination using an autoclave to provide moist heat; chemical decontamination using low temperature ethanol; chemical decontamination using low temperature ethanol and isopropanol; and low temperature chemical decontamination using ethanol and bleach.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2017/ China"
+        },
+        {
+            "text": "Descriptive study VI Lin, et al. (39) ",
+            "cite_spans": [
+                {
+                    "start": 33,
+                    "end": 37,
+                    "text": "(39)",
+                    "ref_id": "BIBREF47"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2017/ China"
+        },
+        {
+            "text": "Ethanol at several concentrations and volumes was added to the center of the N95 mask surface; bleach: a volume of 0.4 ml of chlorine-based bleach with several concentrations; UV-C \u2020 : an N95 mask was placed 10 cm below a hand-held UV-C \u2020 with a 6 W lamp emitting a wavelength of 254 nm or 365 nm. Both sides of the N95 were exposed at different times -1, 2, 5, 10 and 20 minutes; Autoclave: The N95 was heated for 15 minutes at 121\u00b0C \u00a7 ; Traditional electric rice cooker: The N95 was placed in an electric rice cooker to be heated for 3 minutes (149-164\u00b0C \u00a7 , without adding water).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2018/ China"
+        },
+        {
+            "text": "Descriptive study VI Mills, et al. (40) ",
+            "cite_spans": [
+                {
+                    "start": 21,
+                    "end": 27,
+                    "text": "Mills,",
+                    "ref_id": null
+                },
+                {
+                    "start": 28,
+                    "end": 39,
+                    "text": "et al. (40)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "2018/ China"
+        },
+        {
+            "text": "The facepiece and the handle of the N95 mask were covered with a staining agent: artificial saliva or artificial oil skin. For each staining agent, three masks were contaminated and treated with 1 J/cm 2 of ultraviolet germicidal irradiation for approximately 1 minute.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2018/ United States"
+        },
+        {
+            "text": "Cadnum, et al. (41) ",
+            "cite_spans": [
+                {
+                    "start": 15,
+                    "end": 19,
+                    "text": "(41)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Descriptive study VI"
+        },
+        {
+            "text": "Three methods: UV-C light (UV-C \u2020 ), a high-level disinfection cabinet which generates peracetic acid and hydrogen peroxide aerosol and dry heat at 70\u00b0C \u00a7 for 30 minutes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Descriptive study VI Grossman, et al. (42) ",
+            "cite_spans": [
+                {
+                    "start": 38,
+                    "end": 42,
+                    "text": "(42)",
+                    "ref_id": "BIBREF51"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Disinfection with hydrogen peroxide vapor. A closed and sealed room with hydrogen peroxide vapor. The Bioquell Z-2 disinfection cycle is started (the initial settings are 20\u00b0C \u00a7 , 40% relative humidity and 10 grams per volume unit of hydrogen peroxide, Bioquell), lasting 4.5 hours to reach at least 700 parts per million of hydrogen peroxide vapor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Rev. Latino-Am. Enfermagem 2021;29:e3492.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "study VI"
+        },
+        {
+            "text": "Year/ Country Method employed Type of study",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors"
+        },
+        {
+            "text": "Xiang, Qifa, Gu (43) ",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "(43)",
+                    "ref_id": "BIBREF52"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Level of evidence"
+        },
+        {
+            "text": "Dry heat was applied at 60\u00b0C \u00a7 and 70\u00b0C \u00a7 for 1 hour on the used masks. Subsequently, decontamination extent was evaluated by the sterility testing for 7 pathogenic bacteria. Fit and filtration efficiency tests were also carried out using bacteria in aerosols for the masks that had been decontaminated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ China"
+        },
+        {
+            "text": "Perkins, et al. (44) ",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "(44)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "Descriptive study VI"
+        },
+        {
+            "text": "The N95 masks were arranged in racks and exposed to hydrogen peroxide vapor with a level of 480 parts per million with a \"gassing\" time of 25 minutes and a dwell time of 20 minutes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Descriptive study VI Ozog (47) ",
+            "cite_spans": [
+                {
+                    "start": 26,
+                    "end": 30,
+                    "text": "(47)",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "The internal and external surfaces of the N95 mask were irradiated by Daavlin Desktop -Germicidal ultraviolet irradiation at a dose of 1.5 J/cm 2 for each side.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Descriptive study VI",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Boop, et al. (48) ",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 17,
+                    "text": "(48)",
+                    "ref_id": "BIBREF63"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Exposures in 115\u00b0C \u00a7 autoclave for 60 minutes or 121\u00b0C \u00a7 for 30 minutes.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Descriptive study VI",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Li, et al. (49) ",
+            "cite_spans": [
+                {
+                    "start": 11,
+                    "end": 15,
+                    "text": "(49)",
+                    "ref_id": null
+                }
+            ],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Vapor rice cooker, including 8 to 10 minutes of heating and 5 minutes of vapor versus dry heat at 100\u00b0C \u00a7 for 15 minutes in a decontamination oven.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Carrillo, et al. (50) ",
+            "cite_spans": [
+                {
+                    "start": 17,
+                    "end": 21,
+                    "text": "(50)",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Descriptive study VI"
+        },
+        {
+            "text": "Decontamination with immediate-use vapor, using SterisAmsco. The masks were packaged in plastic-paper packaging compatible with the equipment used.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Descriptive study VI",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Liao, et al. (51) 2020/ United States Ribeir\u00e3o Preto, SP, Brazil, 2020 Figure 3 lists the data of the authors, year of publication/country, data on reuse, type of study and level of evidence.",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 17,
+                    "text": "(51)",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 71,
+                    "end": 79,
+                    "text": "Figure 3",
+                    "ref_id": "FIGREF4"
+                }
+            ],
+            "section": "2020/ United States"
+        },
+        {
+            "text": "Year/Country Data on reuse Type of study",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Authors"
+        },
+        {
+            "text": "Duarte, et al. (52) ",
+            "cite_spans": [
+                {
+                    "start": 15,
+                    "end": 19,
+                    "text": "(52)",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Level of evidence"
+        },
+        {
+            "text": "Standardized observations were made on the conditions of the PFF-2 type FRMs * collected after being used by nursing assistants after five, 15 or 30 consecutive days of use.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2010/ Brazil"
+        },
+        {
+            "text": "Sakaguchi, et al. (53) 2010/Japan",
+            "cite_spans": [
+                {
+                    "start": 18,
+                    "end": 22,
+                    "text": "(53)",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Descriptive study VI"
+        },
+        {
+            "text": "The influenza A virus (0.5 milliliters) was deposited on the surface of a rubber glove, a mask with an N95 filter, a surgical mask made of non-woven fabric, an apron made of Tyvek, a coated wooden table and a stainless steel table. Each sample was left for 1.8 to 24 hours. Hemagglutination and infectious dose were measured.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Descriptive study VI"
+        },
+        {
+            "text": "Roberge, et al. (54) ",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "(54)",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Descriptive study VI"
+        },
+        {
+            "text": "Three N95 models were tested for placing and removal for 15 minutes and wear out was evaluated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2012/ United States"
+        },
+        {
+            "text": "Descriptive study VI Bergman, et al. (55) 2012/ United States Consecutive placements were made and the fit factor was evaluated. Descriptive study VI Fisher, et al. (56) ",
+            "cite_spans": [
+                {
+                    "start": 37,
+                    "end": 41,
+                    "text": "(55)",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 165,
+                    "end": 169,
+                    "text": "(56)",
+                    "ref_id": "BIBREF75"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2012/ United States"
+        },
+        {
+            "text": "The FRMs * were infected using bacteriophages as a substitute for pathogenic viruses in the air. Bacteriophages were applied to the masks as droplets or droplet nuclei. The concentration of the bacteriophages applied on the mask was 10 4 or 10 5 colony-forming units per cm 2 . They were performed to quantify the total number of suspended virus on the mask during cough simulation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2012/ United States"
+        },
+        {
+            "text": "Descriptive study VI Brady, et al. (57) ",
+            "cite_spans": [
+                {
+                    "start": 35,
+                    "end": 39,
+                    "text": "(57)",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "2012/ United States"
+        },
+        {
+            "text": "The N95 masks were sprayed five times in approximately 10 seconds with spray containing 100 milliliters suspension of MS2 || . The masks were placed in an exhauster to dry for 1 hour. After they have been dried, the masks were sealed in plastic bags and stored at 4\u00b0C \u00a7 for the night. Four masks were contaminated for each subject. Three of the four masks were used to simulate usage scenarios and the fourth mask was used to determine viral load.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2017/ United States"
+        },
+        {
+            "text": "Suen, et al. (58) ",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 17,
+                    "text": "(58)",
+                    "ref_id": "BIBREF78"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Descriptive study VI"
+        },
+        {
+            "text": "One hundred and four Nursing students participated and performed Nursing procedures for 10 minutes when using FRMs * . Mask fit and the perceived usability of the FRMs * were evaluated.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "2020/ Hong Kong"
+        },
+        {
+            "text": "Descriptive study VI * Respirator Face Mask; \u00a7 Degrees Celsius; || MS2 Bacteriophage Descriptions of the studies regarding authors, objectives, type of mask, reprocessing method, type and size of the microorganisms, efficacy of each type of reprocessing, effect of reprocessing on the structure of the masks and chemical risk were presented, as shown in Figure 4 . Figure 5 . Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 354,
+                    "end": 362,
+                    "text": "Figure 4",
+                    "ref_id": "FIGREF5"
+                },
+                {
+                    "start": 365,
+                    "end": 373,
+                    "text": "Figure 5",
+                    "ref_id": "FIGREF6"
+                }
+            ],
+            "section": "2020/ Hong Kong"
+        },
+        {
+            "text": "Fisher, et al. (56) /2012",
+            "cite_spans": [
+                {
+                    "start": 15,
+                    "end": 19,
+                    "text": "(56)",
+                    "ref_id": "BIBREF75"
+                }
+            ],
+            "ref_spans": [],
+            "section": "REUSE"
+        },
+        {
+            "text": "To verify reaerosolization of bacteriophage particles from FRMs * after cough simulation.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "REUSE"
+        },
+        {
+            "text": "MS2 || bacteriophage as a substitute for airborne pathogenic viruses. The concentration of MS2 || applied was 10 4 or 10 5 plaque-forming units/ cm -2 .",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "N95 (Gerson 1730)."
+        },
+        {
+            "text": "A small percentage of viable bacteriophages was reaerosolized from the N95 masks by the reverse air flow.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "N95 (Gerson 1730)."
+        },
+        {
+            "text": "The risks due to reaerosolization associated with prolonged use can be considered insignificant, although the risk assessments must be updated as new respiratory viruses emerge and better assessment data on exposure at work become available.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "N95 (Gerson 1730)."
+        },
+        {
+            "text": "Bergman, et al. (55) /2012",
+            "cite_spans": [
+                {
+                    "start": 16,
+                    "end": 20,
+                    "text": "(55)",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [],
+            "section": "N95 (Gerson 1730)."
+        },
+        {
+            "text": "To investigate the impact of several gains in the fit of the facepiece of 6 models of the FRMs * using a group of 10 experiment test subjects by model. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "N95 (Gerson 1730)."
+        },
+        {
+            "text": "Suen, et al. (58) /2020",
+            "cite_spans": [
+                {
+                    "start": 13,
+                    "end": 17,
+                    "text": "(58)",
+                    "ref_id": "BIBREF78"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Recommendation regarding reuse"
+        },
+        {
+            "text": "To evaluate FRM * fit before and after the Nursing procedures. The physical properties of these FRMs * were also examined.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recommendation regarding reuse"
+        },
+        {
+            "text": "3M N95 FFR \u2020 and nanofiber N95 FFR \u2020 . Not applicable.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recommendation regarding reuse"
+        },
+        {
+            "text": "The nanofiber FRM * showed significantly better usability than the 3M FRM * . None of the respirators was able to provide consistent protection for the user, as detected by the face seal leak after performing Nursing procedures.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recommendation regarding reuse"
+        },
+        {
+            "text": "It is necessary to further improve the prototype's design in order to increase compliance and ensure respiratory protection for the users.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recommendation regarding reuse"
+        },
+        {
+            "text": "Sakaguchi, et al. (53) /2010",
+            "cite_spans": [
+                {
+                    "start": 18,
+                    "end": 22,
+                    "text": "(53)",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Recommendation regarding reuse"
+        },
+        {
+            "text": "To determine whether influenza A (H1N1 \u00a7 ), cultivated in laboratory, maintains its infectiousness on the surfaces of personal protective equipment and clothes used in health care institutions. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Recommendation regarding reuse"
+        },
+        {
+            "text": "This study showed the complexity for the effective reprocessing and reuse of the N95 FRMs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "A successful decontamination method must inactivate the virus, not impair performance of the filter, not affect fit of the FRMs, not cause irritation to the user due to residual chemicals, and be easily performed in a timely manner (56) .",
+            "cite_spans": [
+                {
+                    "start": 232,
+                    "end": 236,
+                    "text": "(56)",
+                    "ref_id": "BIBREF75"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Regarding reprocessing of the N95 FRMs and equivalent, we noticed that many methods were used for this purpose: ultraviolet germicidal irradiation was They also found that ultraviolet light was the only method that did not cause observable physical changes in the FRMs (22) . However, only one model passed 20 fit tests and five models did not go through the test (47) .",
+            "cite_spans": [
+                {
+                    "start": 269,
+                    "end": 273,
+                    "text": "(22)",
+                    "ref_id": null
+                },
+                {
+                    "start": 364,
+                    "end": 368,
+                    "text": "(47)",
+                    "ref_id": "BIBREF61"
+                }
+            ],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "Thus, the use of ultraviolet light is still controversial in terms of decontamination and effectiveness of the",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Discussion"
+        },
+        {
+            "text": "As for the use of hydrogen peroxide, we identified eight studies (27) (28) 30, (41) (42) (44) (45) (46) . The authors suggest that this method is promising in relation to FRM decontamination, although concerns remain about the residuals left after decontamination (27) . However, a research study showed that, in four hours, the hydrogen peroxide levels were reduced below the detection level (0 parts per million) (46) . The FRMs can be decontaminated and reused up to three times using hydrogen peroxide vapor (45) . The decontamination effectiveness of the FRMs was demonstrated with a 31-minute long cycle (41) . In addition to that, in the treatment with gaseous hydrogen peroxide, the mean penetration levels were >5% for four of the six FRM models tested (28) .",
+            "cite_spans": [
+                {
+                    "start": 65,
+                    "end": 69,
+                    "text": "(27)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 70,
+                    "end": 74,
+                    "text": "(28)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 75,
+                    "end": 78,
+                    "text": "30,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 79,
+                    "end": 83,
+                    "text": "(41)",
+                    "ref_id": null
+                },
+                {
+                    "start": 84,
+                    "end": 88,
+                    "text": "(42)",
+                    "ref_id": "BIBREF51"
+                },
+                {
+                    "start": 89,
+                    "end": 93,
+                    "text": "(44)",
+                    "ref_id": null
+                },
+                {
+                    "start": 94,
+                    "end": 98,
+                    "text": "(45)",
+                    "ref_id": null
+                },
+                {
+                    "start": 99,
+                    "end": 103,
+                    "text": "(46)",
+                    "ref_id": null
+                },
+                {
+                    "start": 264,
+                    "end": 268,
+                    "text": "(27)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 415,
+                    "end": 419,
+                    "text": "(46)",
+                    "ref_id": null
+                },
+                {
+                    "start": 512,
+                    "end": 516,
+                    "text": "(45)",
+                    "ref_id": null
+                },
+                {
+                    "start": 610,
+                    "end": 614,
+                    "text": "(41)",
+                    "ref_id": null
+                },
+                {
+                    "start": 762,
+                    "end": 766,
+                    "text": "(28)",
+                    "ref_id": "BIBREF35"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Rev. Latino-Am. Enfermagem 2021;29:e3492.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Although promising in relation to the destruction of microorganisms, this method can compromise filtration efficiency of the FRMs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Regarding the use of vapor methods, four studies used decontamination with autoclave (38) (39) 48, 50) . The exposure time varied from 15 to 60 minutes and the temperature from 115 to 121\u00b0C. In only one of the studies, immediate-use vapor decontamination was employed (50) .",
+            "cite_spans": [
+                {
+                    "start": 85,
+                    "end": 89,
+                    "text": "(38)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 90,
+                    "end": 94,
+                    "text": "(39)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 95,
+                    "end": 98,
+                    "text": "48,",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 99,
+                    "end": 102,
+                    "text": "50)",
+                    "ref_id": "BIBREF67"
+                },
+                {
+                    "start": 268,
+                    "end": 272,
+                    "text": "(50)",
+                    "ref_id": "BIBREF67"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "It was observed that particle retention was reduced after each autoclave cycle, although the minimum requirements were maintained in the fit test for up to three autoclaving processes (48) . In addition to that, a slight elasticity loss was observed in the rubber straps with each autoclave treatment. The masks that went through five processing procedures failed the fit test and presented observable folds (38) . It is also noteworthy that some studies used Other studies also used vapor as a resource for decontaminating FRMs. Three of them used a vapor rice cooker (38) (39) 49) , six used microwave-generated vapor (27) (28) 31, (33) (34) (35) and one used vapor from a boiling water cup (51) . It is emphasized that these methods presented satisfactory results with respect to decontamination of microorganisms; however, they can cause structural damage to the FRMs. In addition to that, these reprocessing methods are not regulated for use in health services.",
+            "cite_spans": [
+                {
+                    "start": 184,
+                    "end": 188,
+                    "text": "(48)",
+                    "ref_id": "BIBREF63"
+                },
+                {
+                    "start": 408,
+                    "end": 412,
+                    "text": "(38)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 569,
+                    "end": 573,
+                    "text": "(38)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 574,
+                    "end": 578,
+                    "text": "(39)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 579,
+                    "end": 582,
+                    "text": "49)",
+                    "ref_id": null
+                },
+                {
+                    "start": 620,
+                    "end": 624,
+                    "text": "(27)",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 625,
+                    "end": 629,
+                    "text": "(28)",
+                    "ref_id": "BIBREF35"
+                },
+                {
+                    "start": 630,
+                    "end": 633,
+                    "text": "31,",
+                    "ref_id": "BIBREF39"
+                },
+                {
+                    "start": 634,
+                    "end": 638,
+                    "text": "(33)",
+                    "ref_id": "BIBREF41"
+                },
+                {
+                    "start": 639,
+                    "end": 643,
+                    "text": "(34)",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 644,
+                    "end": 648,
+                    "text": "(35)",
+                    "ref_id": "BIBREF43"
+                },
+                {
+                    "start": 693,
+                    "end": 697,
+                    "text": "(51)",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Regarding dry heat, five studies employed this method (41, 43, 45, 49, 51) . Temperatures varied from 60 to 100\u00b0C and time, from 15 minutes to three hours. Dry heat at 60\u00b0C and 70\u00b0C for one hour were able to successfully destroy the microorganisms tested and the FRM filtration efficiency was 98%, 98% and 97% after being heated for one, two and three hours, respectively (43) . Dry heat at 70\u00b0C for 30 minutes was not effective in decontaminating bacteriophages (41) . A number of researchers showed that, at 70\u00b0C, dry heat can be used one or two times without impairing filtration of the FRMs (45) , confirming other findings that evidenced filtration efficiency of 96.67% (\u00b1 0.65) after using dry heat (51) .",
+            "cite_spans": [
+                {
+                    "start": 54,
+                    "end": 58,
+                    "text": "(41,",
+                    "ref_id": null
+                },
+                {
+                    "start": 59,
+                    "end": 62,
+                    "text": "43,",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 63,
+                    "end": 66,
+                    "text": "45,",
+                    "ref_id": null
+                },
+                {
+                    "start": 67,
+                    "end": 70,
+                    "text": "49,",
+                    "ref_id": null
+                },
+                {
+                    "start": 71,
+                    "end": 74,
+                    "text": "51)",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 372,
+                    "end": 376,
+                    "text": "(43)",
+                    "ref_id": "BIBREF52"
+                },
+                {
+                    "start": 463,
+                    "end": 467,
+                    "text": "(41)",
+                    "ref_id": null
+                },
+                {
+                    "start": 705,
+                    "end": 709,
+                    "text": "(51)",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "For effective sterilization of the materials, the oven must be kept closed continuously for 60 minutes with the temperature at 170\u00b0C, or for 120 minutes at 160\u00b0C.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "None of the studies used these parameters. Thus, it is not possible to talk about sterilizing the FRMs (60) . Therefore, in relation to this method, there are doubts about the real effectiveness of this process in decontaminating the FRMs.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Regarding the use of chemical methods, eight studies were developed. Six used sodium hypochlorite (27, 30, 36, (38) (39) (40) 51) , four (38) (39) 45, 51) tested ethanol and one study used mixed oxidants. Different concentrations and volumes were used, but the odor of chlorine-based solutions remained after decontamination of the FRMs; in addition to that, bleach corroded the metal parts of the FRMs. This result was expected, considering that chlorine is an oxidizing agent.",
+            "cite_spans": [
+                {
+                    "start": 98,
+                    "end": 102,
+                    "text": "(27,",
+                    "ref_id": "BIBREF34"
+                },
+                {
+                    "start": 103,
+                    "end": 106,
+                    "text": "30,",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 107,
+                    "end": 110,
+                    "text": "36,",
+                    "ref_id": "BIBREF44"
+                },
+                {
+                    "start": 111,
+                    "end": 115,
+                    "text": "(38)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 116,
+                    "end": 120,
+                    "text": "(39)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 121,
+                    "end": 125,
+                    "text": "(40)",
+                    "ref_id": null
+                },
+                {
+                    "start": 126,
+                    "end": 129,
+                    "text": "51)",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 137,
+                    "end": 141,
+                    "text": "(38)",
+                    "ref_id": "BIBREF46"
+                },
+                {
+                    "start": 142,
+                    "end": 146,
+                    "text": "(39)",
+                    "ref_id": "BIBREF47"
+                },
+                {
+                    "start": 147,
+                    "end": 150,
+                    "text": "45,",
+                    "ref_id": null
+                },
+                {
+                    "start": 151,
+                    "end": 154,
+                    "text": "51)",
+                    "ref_id": "BIBREF68"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Regarding filtration efficiency, it was shown that the ethanol-and chlorine-based solutions drastically degraded filtration efficiency to unacceptable levels, 56 .33% (\u00b1 3.03) with ethanol and 73.11% (\u00b1 7.32) with the chlorine-based solution (51) , confirming other findings which showed that decontamination reduced filter quality after using 70% ethanol (38) In the case of the FRMs, cleaning and rinsing were not performed in the studies analyzed, probably due to the risk of damaging the filter. We also emphasize that, for an article to be subjectable to reprocessing, it must maintain its characteristics, and its efficiency and physical characteristics must be assessed. The reprocessing protocol must also be prepared for each brand and in each of the health institutions, considering the different conditions of the equipment used for the cleaning/disinfection/sterilization procedures.",
+            "cite_spans": [
+                {
+                    "start": 159,
+                    "end": 161,
+                    "text": "56",
+                    "ref_id": "BIBREF75"
+                },
+                {
+                    "start": 242,
+                    "end": 246,
+                    "text": "(51)",
+                    "ref_id": "BIBREF68"
+                },
+                {
+                    "start": 356,
+                    "end": 360,
+                    "text": "(38)",
+                    "ref_id": "BIBREF46"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Another factor to be discussed is the major difficulty in defining decontamination of N95 masks, as determining the microbial load in the different clinical settings and activities is a limiting factor.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Regarding FRM reuse, from the total of studies identified, only seven (21.8%) addressed this topic. A research study (57) showed the transfer of microorganisms from the FRMs to the users' hands while handling and reusing them.",
+            "cite_spans": [
+                {
+                    "start": 117,
+                    "end": 121,
+                    "text": "(57)",
+                    "ref_id": "BIBREF77"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Gir E, Menegueti MG, Sousa LRM, Pereira-Caldeira NMV, Carvalho MJ, Reis RK.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "point out that the potential threat of reaerosolization, associated with prolonged use of the N95 mask, of most of the respiratory viruses seems insignificant and unlikely to health professionals and patients and that there is a need for studies as new respiratory pathogens emerge (56) .",
+            "cite_spans": [
+                {
+                    "start": 282,
+                    "end": 286,
+                    "text": "(56)",
+                    "ref_id": "BIBREF75"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "In relation to the research studies that analyzed the potential for contamination by pathogens of the Another concern with reusing N95 masks refers to the damage that multiple placements and removals can cause in their components (such as head straps, strap accessories, adjustable nose tips, etc.), which can adversely affect fit in the user's face and a proper seal over time (55) . straps (54) .",
+            "cite_spans": [
+                {
+                    "start": 378,
+                    "end": 382,
+                    "text": "(55)",
+                    "ref_id": "BIBREF74"
+                },
+                {
+                    "start": 392,
+                    "end": 396,
+                    "text": "(54)",
+                    "ref_id": "BIBREF73"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "A research study showed that multiple placements and removals of the FRMs exert an impact on fit in six types of masks analyzed and was associated with the mask model. The data showed that five consecutive placements can be carried out before there is any failure (FF <100) (55) .",
+            "cite_spans": [
+                {
+                    "start": 274,
+                    "end": 278,
+                    "text": "(55)",
+                    "ref_id": "BIBREF74"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "A study assessed the damage imposed on filter masks over time and estimated their validity period in the clinical practice, showing that, from the fifth day on, all masks were soiled and that folds were observed in more than 80% (52) . Internal stains and folds were more common after 12-hour shifts than after 6-hour shifts. It was also identified that 16.17% of the masks were lost on the fifth day and 38.93% after 30 days of use, showing that use of the FRMs must be exclusive for a 12-workinghour shift at the most or, if reuse is really necessary, that the five-day validity period must be respected.",
+            "cite_spans": [
+                {
+                    "start": 229,
+                    "end": 233,
+                    "text": "(52)",
+                    "ref_id": "BIBREF69"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Given the limitation of the evidence found, more research studies are needed to establish the reuse time for the FRMs, especially in real work environments.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "Ideally, FRMs should be discarded after each encounter with the patient and after aerosol-generating procedures, when damaged or deformed, when they no longer form an effective seal on the face, when they get wet or visibly soiled, when breathing becomes difficult, as well as when they become contaminated with blood, respiratory or nasal secretions, or other body fluids (14) .",
+            "cite_spans": [
+                {
+                    "start": 373,
+                    "end": 377,
+                    "text": "(14)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "The health professional must not come into contact with the outer surface of the FRMs, for being considered contaminated. In addition to that, to avoid contamination, it is recommended to pay special attention to the adequate sequence and technique for mask removal after use, holding it by the straps placed on the back of the head (14) .",
+            "cite_spans": [
+                {
+                    "start": 333,
+                    "end": 337,
+                    "text": "(14)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "To reuse the FRM, the health professional must inspect it regarding its integrity, including the straps and nose clip that may present changes in their structure which affect fit and seal quality. In addition, the fit test must be performed immediately after placing the FRM to verify proper seal on the user's face so as to prevent air leakage. To this end, in general, this test is performed by placing both hands on the surface of the mask. The inspection, placement and removal of the mask after use involve its handling, increasing the chance for selfcontamination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "FRMs."
+        },
+        {
+            "text": "on the surfaces of the surgical mask and of the FRM for at least eight hours (53) . Thus, to prevent contamination, it is recommended to pay special attention to the adequate sequence and technique for removing the mask after use (14) .",
+            "cite_spans": [
+                {
+                    "start": 77,
+                    "end": 81,
+                    "text": "(53)",
+                    "ref_id": "BIBREF71"
+                },
+                {
+                    "start": 230,
+                    "end": 234,
+                    "text": "(14)",
+                    "ref_id": "BIBREF28"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The influenza A virus maintained its ineffectiveness"
+        },
+        {
+            "text": "Hand hygiene before and after PPE gowning and degowning and during the assistance provided to limit contamination of the health care environments deserves to be highlighted. In relation to SARS-CoV-2, a study showed In the same sense, a study on the infectiousness of the influenza virus in the same PPE identified that it remained active on the surface of the FRMs for at least 8 hours, showing that PPE disposal to prevent crossinfection is an important practice. The researchers point out that reuse of the PPE can be responsible for crosstransmission of the influenza virus and, therefore, it is recommended to discard the mask when it becomes soiled with blood and respiratory secretions, immediately after use (57) , and frequent replacement of the PPE for each patient as a preventive measure (53) .",
+            "cite_spans": [
+                {
+                    "start": 716,
+                    "end": 720,
+                    "text": "(57)",
+                    "ref_id": "BIBREF77"
+                },
+                {
+                    "start": 800,
+                    "end": 804,
+                    "text": "(53)",
+                    "ref_id": "BIBREF71"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The influenza A virus maintained its ineffectiveness"
+        },
+        {
+            "text": "Another aspect related to the prolonged use of the FRMs refers to the risk of airborne transmission of particles containing virus, that is, whether they might act as a potential source of exposure risks due to reaerosolization. A research study showed that only a small percentage (\u22640.21%) of viable virus was reaerosolized from the tested FRMs by the reverse air flow generated by simulated cough. The viruses applied as aerosols were much more susceptible to reaerosolization than those contaminated with droplets. Thus, the authors Rev. Latino-Am. Enfermagem 2021;29:e3492.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The influenza A virus maintained its ineffectiveness"
+        },
+        {
+            "text": "For reusing the FRMs, the need for health care institutions to provide a suitable place for storage stands out, preventing their contamination.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The influenza A virus maintained its ineffectiveness"
+        },
+        {
+            "text": "Another aspect identified in this research refers to the usability of the FRMs, which is important because discomfort during use can affect compliance. Thus, a study evaluating the physical properties and usability of different FRM brands identified that those produced with nanofiber showed better usability than other materials in terms of facial warmth, breathability, facial pressure, speech intelligibility, itching, difficulty in maintaining the mask in place and comfort level. The nanofiber FRMs were also thinner and lighter and presented slightly higher bacterial filtration efficiency than the other masks evaluated (58) .",
+            "cite_spans": [
+                {
+                    "start": 627,
+                    "end": 631,
+                    "text": "(58)",
+                    "ref_id": "BIBREF78"
+                }
+            ],
+            "ref_spans": [],
+            "section": "The influenza A virus maintained its ineffectiveness"
+        },
+        {
+            "text": "The studies analyzed allow some recommendations Adherence to the precautions, especially hand hygiene, correct use of PPE, whether during gowning or degowning, should be strictly followed.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The influenza A virus maintained its ineffectiveness"
+        },
+        {
+            "text": "When considering the contributions of this study, some limitations should be listed, as the fact that the studies do not use the FRMs employed in the clinical practice, that none of the studies has carried out the necessary steps for reprocessing validation, as well as the fact that none of studies has used masks contaminated with SARS-CoV-2 virus in the health services. We also point out that, although we have assessed the level of evidence of the articles, we did not assess the methodological quality of the studies included in the review.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "The influenza A virus maintained its ineffectiveness"
+        },
+        {
+            "text": "No evidence was found to support safe reprocessing of FRMs. The chemical methods studied should not be used, as they compromise mask integrity. Hydrogen peroxide vapor was listed as an effective method for decontaminating masks and causing less physical damage to them. However, we emphasize that no study conducted all the necessary steps for reprocessing validation. Reuse is contraindicated; however, health institutions perform this practice when they face situations of FRM shortage.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        },
+        {
+            "text": "A number of studies point out that adequate gowning and hand hygiene before and after removing the mask, as well as proper storage, can prevent mask contamination. In addition to that, mask integrity can be preserved for up to five reuse instances.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Conclusion"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "The novel coronavirus outbreak in Wuhan",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhu",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Niu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "China. Glob Health Res Policy",
+            "volume": "5",
+            "issn": "1",
+            "pages": "1--3",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s41256-020-00135-6"
+                ]
+            }
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "World Health Organization. WHO Director-General's opening remarks at the media briefing on COVID-19 -11",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "director-general/speeches/detail/who-director-generals-opening-remarks-at-the-media-briefing-on-covid",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF3": {
+            "ref_id": "b3",
+            "title": "World Health Organization. WHO Coronavirus (COVID-19) Dashboard. Global Situation",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Geneva: WHO; 2021",
+            "authors": [],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Infec\u00e7\u00e3o humana pelo novo coronav\u00edrus (2019-nCoV)",
+            "authors": [
+                {
+                    "first": "Sa\u00fade",
+                    "middle": [],
+                    "last": "Minist\u00e9rio Da",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Boletim Epidemiol\u00f3gico",
+            "volume": "2",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Bras\u00edlia: SVS",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "COVID-19 pandemic and personal protective equipment shortage: protective efficacy comparing masks and www",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Stability of SARS-CoV-2 on critical personal protective equipment",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Gir",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Menegueti",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lrm",
+                    "middle": [],
+                    "last": "Sousa",
+                    "suffix": ""
+                },
+                {
+                    "first": "Nmv",
+                    "middle": [],
+                    "last": "Pereira-Caldeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Carvalho",
+                    "suffix": ""
+                },
+                {
+                    "first": "Rk",
+                    "middle": [
+                        "16"
+                    ],
+                    "last": "Reis",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Kasloff",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Leung",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Strong",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Funk",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Cutts",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Sci Rep",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1038/s41598-020-80098-3"
+                ]
+            }
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Implementing Filtering Facepiece Respirator (FFR) Reuse, Including Reuse after Decontamination, When There Are Known Shortages of N95 Respirators",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "Nota t\u00e9cnica GVIMS/GGTES/ANVISA No 04/2020: Orienta\u00e7\u00f5es para servi\u00e7os de sa\u00fade: medidas de preven\u00e7\u00e3o e controle que devem ser adotadas durante a assist\u00eancia aos casos suspeitos ou confirmados de infec\u00e7\u00e3o pelo novo coronav\u00edrus (SARS-CoV-2)",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Hanseler",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Welle",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Rattray",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Campbell",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Brotherton",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Sci Total Environ",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.scitotenv.2020.13853220"
+                ]
+            }
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Evaluation of decontamination methods for commercial and alternative respirator and mask materials -view from filtration aspect",
+            "authors": [
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Pei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Chan",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Abell",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Pui",
+                    "suffix": ""
+                },
+                {
+                    "first": "Dyh",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "22. Ganong LH. Integrative reviews of nursing research",
+            "volume": "150",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jaerosci.2020.105609"
+                ]
+            }
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Moher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liberati",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tetzlaff",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                },
+                {
+                    "first": "Prisma",
+                    "middle": [],
+                    "last": "Group",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Ann Intern Medic",
+            "volume": "151",
+            "issn": "4",
+            "pages": "264--273",
+            "other_ids": {
+                "DOI": [
+                    "doi.org/10.7326/0003-4819-151-4-200908180-00135"
+                ]
+            }
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "The PICO strategy for the research question construction and evidence search",
+            "authors": [
+                {
+                    "first": "Cmdc",
+                    "middle": [],
+                    "last": "Santos",
+                    "suffix": ""
+                },
+                {
+                    "first": "Cadm",
+                    "middle": [],
+                    "last": "Pimenta",
+                    "suffix": ""
+                },
+                {
+                    "first": "Mrc",
+                    "middle": [],
+                    "last": "Nobre",
+                    "suffix": ""
+                }
+            ],
+            "year": 2007,
+            "venue": "Rev. Latino-Am. Enfermagem",
+            "volume": "15",
+            "issn": "3",
+            "pages": "508--519",
+            "other_ids": {
+                "DOI": [
+                    "10.1590/S0104-11692007000300023"
+                ]
+            }
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Evidence-Based Practice in Nursing & Healthcare: A Guide to Best Practice. 4 th ed. Philadelphia: Wolters Kluwer; 2019. 782 p. scientific methods for respirator reuse",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Melnyk",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fineout-Overholt",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Gastrointest Endosc",
+            "volume": "27",
+            "issn": "20",
+            "pages": "34247--34251",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "Infection prevention and control in nursing severe coronavirus disease (COVID-19) patients during the pandemic",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care",
+            "volume": "24",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1186/s13054-020-03076-1"
+                ]
+            }
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "Risk of COVID-19 among front-line healthcare workers and the general community: a prospective cohort study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Wenjie",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Lancet Public Health",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/S2468-2667(20"
+                ]
+            }
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "An\u00e1lise de casos e \u00f3bitos pela COVID-19 em profissionais de enfermagem no Brasil",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Duprat",
+                    "suffix": ""
+                },
+                {
+                    "first": "Gcd",
+                    "middle": [],
+                    "last": "Melo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Cerca de 570 mil profissionais de sa\u00fade se infectaram e 2,5 mil morreram por COVID-19 nas Am\u00e9ricas",
+            "authors": [],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "Epidemiology of Covid-19 in a longterm care facility in King County, Washington",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "N Engl J Med",
+            "volume": "382",
+            "issn": "21",
+            "pages": "2005--2016",
+            "other_ids": {
+                "DOI": [
+                    "10.1056/NEJMoa2005412"
+                ]
+            }
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "World Health Organization. Rational use of personal protective equipment for COVID-19 and considerations during severe shortages",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "Critical Supply Shortages -The Need for Ventilators and Personal Protective Equipment during the Covid-19 Pandemic",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Ranney",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Griffeth",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Jha",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "Persistence of the 2009 pandemic influenza A (H1N1) virus on N95 respirators",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Coulliette",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Perry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Edwards",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Noble-Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Appl Environ Microbiol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "Coronavirus survival on healthcare personal protective equipment",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Casanova",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rutala",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Weber",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Sobsey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Infect Control Hosp Epidemiol",
+            "volume": "31",
+            "issn": "5",
+            "pages": "560--561",
+            "other_ids": {
+                "DOI": [
+                    "10.1086/652452www.eerp.usp.br/rlae"
+                ]
+            }
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Preven\u00e7\u00e3o de les\u00f5es de pele no perioperat\u00f3rio: revis\u00e3o integrativa da literatura",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ursi",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Galv\u00e3o",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF34": {
+            "ref_id": "b34",
+            "title": "Evaluation of five decontamination methods for filtering facepiece respirators",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Viscusi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bergman",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Eimer",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "Ann Occup Hyg",
+            "volume": "53",
+            "issn": "8",
+            "pages": "815--842",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/annhyg/mep070"
+                ]
+            }
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Evaluation of multiple (3-cycle) Eng Fiber Fabr",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bergman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Viscusi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Heimbuch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wander",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Sambol",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "",
+            "volume": "5",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1177/155892501000500405"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Evaluation of the survivability of MS2 viral aerosols deposited on filtering facepiece respirator samples incorporating antimicrobial technologies",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Rengasamy",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Am J Infect Control",
+            "volume": "38",
+            "issn": "1",
+            "pages": "9--17",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajic.2009.08.006"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Analysis of residual chemicals on filtering facepiece respirators after decontamination",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Salter",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kinney",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lumley",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Heimbuch",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wander",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "A pandemic influenza preparedness study: use of energetic methods to decontaminate filtering facepiece respirators contaminated with H1N1 aerosols and droplets",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Heimbuch",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Wallace",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kinney",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lumley",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Woo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "Am J Infect Control",
+            "volume": "39",
+            "issn": "1",
+            "pages": "1--9",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajic.2010.07.004"
+                ]
+            }
+        },
+        "BIBREF40": {
+            "ref_id": "b40",
+            "title": "A method to determine the available UV-C dose for the decontamination of filtering facepiece respirators",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "J Appl Microbiol",
+            "volume": "110",
+            "issn": "1",
+            "pages": "287--95",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/j.1365-2672.2010.04881.x"
+                ]
+            }
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "Evaluation of microwave steam bags for the decontamination of filtering facepiece respirators",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Williams",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "PLoS One",
+            "volume": "6",
+            "issn": "4",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0018585"
+                ]
+            }
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Impact of three biological decontamination methods on filtering facepiece respirator fit, odor, comfort, and donning ease",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Viscusi",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bergman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Novak",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Faulkner",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Palmiero",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Powell",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Occup Environ Hyg",
+            "volume": "8",
+            "issn": "7",
+            "pages": "426--462",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/15459"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Performance of conventional and antimicrobial-treated filtering facepiece respirators challenged with biological aerosols",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lore",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Sebastian",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Brown",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Viner",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [
+                        "V"
+                    ],
+                    "last": "Mccullough",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Hinrichs",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Occup Environ Hyg",
+            "volume": "9",
+            "issn": "2",
+            "pages": "69--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/154596"
+                ]
+            }
+        },
+        "BIBREF44": {
+            "ref_id": "b44",
+            "title": "Cleaning of filtering facepiece respirators contaminated with mucin and Staphylococcus aureus",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Heimbuch",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kinney",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Lumley",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Harnish",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bergman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Wander",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Am J Infect Control",
+            "volume": "42",
+            "issn": "3",
+            "pages": "265--70",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajic.2013.09.014"
+                ]
+            }
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Effects of ultraviolet germicidal irradiation (UVGI) on N95 respirator filtration performance and structural integrity",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Lindsley",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Martin",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Thewlis",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Sarkisian",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Nwoko",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Mead",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "J Occup Environ Hyg",
+            "volume": "12",
+            "issn": "8",
+            "pages": "509--526",
+            "other_ids": {}
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Filter quality of electret masks in filtering 14.6-594 nm aerosol particles: Effects of five decontamination methods",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Huang",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Kuo",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "PloS One",
+            "volume": "12",
+            "issn": "10",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1371/journal.pone.0186217"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "Relative survival of Bacillus subtilis spores loaded on filtering facepiece respirators after five decontamination methods",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Tang",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hung",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hua",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Lai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "Indoor Air",
+            "volume": "28",
+            "issn": "5",
+            "pages": "754--62",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ina.12475"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Ultraviolet germicidal irradiation of influenza-contaminated N95 filtering facepiece respirators",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Mills",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Harnish",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Lawrence",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Sandoval-Powers",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Heimbuch",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Effectiveness of ultraviolet-C light and a high-level disinfection cabinet for decontamination of N95 respirators",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Cadnum",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Redmond",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "John",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [],
+                    "last": "Pearlmutter",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Donskey",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Pathog Immun",
+            "volume": "5",
+            "issn": "1",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.20411/pai.v5i1.372"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Institution of a Novel Process for N95 Respirator Disinfection with Vaporized Hydrogen Peroxide in the setting of the COVID-19 Pandemic at a Large Academic Medical Center",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Grossman",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Pierce",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Mody",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gagne",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Sykora",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sayood",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Am Coll Surg",
+            "volume": "231",
+            "issn": "2",
+            "pages": "275--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jamcollsurg.2020.04.029"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Decontamination of Surgical Face Masks and N95 Respirators by Dry Heat Pasteurization for One Hour at 70\u00b0C",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Xiang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Song",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Gu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Infect Control",
+            "volume": "48",
+            "issn": "8",
+            "pages": "880--882",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajic.2020.05.026"
+                ]
+            }
+        },
+        "BIBREF54": {
+            "ref_id": "b54",
+            "title": "COVID-19 global pandemic planning: decontamination and reuse processes for N95 respirators",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Hurwitz",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF57": {
+            "ref_id": "b57",
+            "title": "Respirator Decontamination and Reuse against SARS-CoV-2 Virus Emerg Infect Dis",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "26",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3201/eid2609.201524"
+                ]
+            }
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Decontamination and reuse of N95 respirators with hydrogen peroxide vapor to address worldwide personal protective equipment shortages www",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Schwartz",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Stiegel",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Greeson",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Vogel",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Thomann",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Brown",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "The importance of fit testing in decontamination of N95 respirators: A cautionary note",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Ozog",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Parks-Miller",
+                    "suffix": ""
+                },
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Kohli",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Lyons",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Narla",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Torres",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Multicycle Autoclave Decontamination of N95",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Bopp",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bouyer",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Gibbs",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Nichols",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Ntiforo",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Grimaldo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "It's not the heat, it's the humidity: Effectiveness of a rice cooker-steamer for decontamination of cloth and surgical face masks and N95 respirators",
+            "authors": [],
+            "year": 2020,
+            "venue": "Am J Infect Control",
+            "volume": "48",
+            "issn": "7",
+            "pages": "854--859",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "Immediate-use steam sterilization sterilizes N95 masks without mask damage",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [
+                        "O"
+                    ],
+                    "last": "Carrillo",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Floyd",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Valverde",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Tingle",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Zabaneh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Infect Control Hosp Epidemiol",
+            "volume": "41",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1017/ice.2020.145"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Can N95 respirators be reused after disinfection? How many times?",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Liao",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Xiao",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Zhao",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "ACS Nano",
+            "volume": "14",
+            "issn": "5",
+            "pages": "6348--56",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acsnano.0c03597"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Maintenance status of N95 respirator masks after use in a health care setting",
+            "authors": [
+                {
+                    "first": "Lrp",
+                    "middle": [],
+                    "last": "Duarte",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Miola",
+                    "suffix": ""
+                },
+                {
+                    "first": "Njf",
+                    "middle": [],
+                    "last": "Cavalcante",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Bammann",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Rev Esc Enferm USP",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Maintenance of influenza virus infectivity on the surfaces of personal protective equipment and clothing used in healthcare settings",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Sakaguchi",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Wada",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Kajioka",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Nakano",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Hirose",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "Analysis of forces generated by N95 filtering facepiece respirator tethering devices: A pilot study",
+            "authors": [
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Roberge",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Niezgoda",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Benson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "J Occup Environ Hyg",
+            "volume": "9",
+            "issn": "8",
+            "pages": "517--540",
+            "other_ids": {
+                "DOI": [
+                    "10.1080/15459"
+                ]
+            }
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Impact of multiple consecutive donnings on filtering facepiece respirator fit",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Bergman",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Viscusi",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [],
+                    "last": "Zhuang",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Palmiero",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "B"
+                    ],
+                    "last": "Powell",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Am J Infect Control",
+            "volume": "40",
+            "issn": "4",
+            "pages": "375--80",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.ajic.2011.05.003"
+                ]
+            }
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Reaerosolization of MS2 bacteriophage from an N95 filtering facepiece respirator by simulated coughing",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Fisher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "W"
+                    ],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Harpest",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Hofacre",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF77": {
+            "ref_id": "b77",
+            "title": "Transfer of bacteriophage MS2 and fluorescein from N95 filtering facepiece respirators to hands: measuring fomite potential",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Brady",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Strauch",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Almaguer",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Niezgoda",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Shaffer",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Yorio",
+                    "suffix": ""
+                }
+            ],
+            "year": 2017,
+            "venue": "J Occup Environ Hyg",
+            "volume": "14",
+            "issn": "11",
+            "pages": "898--906",
+            "other_ids": {}
+        },
+        "BIBREF78": {
+            "ref_id": "b78",
+            "title": "Comparing mask fit and usability of traditional and nanofibre N95 filtering facepiece respirators before and after nursing procedures",
+            "authors": [
+                {
+                    "first": "Lkp",
+                    "middle": [],
+                    "last": "Suen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "P"
+                    ],
+                    "last": "Guo",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ssk",
+                    "middle": [],
+                    "last": "Ho",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Au-Yeung",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Lam",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "Laranjeira",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jag",
+                    "middle": [],
+                    "last": "Bronzatti",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Souza",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "U"
+                    ],
+                    "last": "Graziano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2008,
+            "venue": "Quais as diretrizes b\u00e1sicas de esteriliza\u00e7\u00e3o e desinfec\u00e7\u00e3o de artigos cl\u00ednicos e m\u00e9dico-hospitalares? [Internet]. 17 Dez",
+            "volume": "104",
+            "issn": "",
+            "pages": "115--135",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jhin.2019.09.01459"
+                ]
+            }
+        },
+        "BIBREF79": {
+            "ref_id": "b79",
+            "title": "Survival of SARS-CoV-2 and influenza virus on the human skin: Importance of hand hygiene in COVID-19",
+            "authors": [
+                {
+                    "first": "Di\u00e1rio",
+                    "middle": [],
+                    "last": "Oficial Da Uni\u00e3o ; Hirose",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Ikegaya",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Naito",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Watanabe",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Yoshida",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Bandou",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2006,
+            "venue": "Clin Infect Dis",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa1517"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "An integrative literature review developed in accordance with the following stages: selection of the review question; sampling (search for studies according to the inclusion and exclusion criteria); extraction of the characteristics of the primary research studies (data extraction); data analysis; interpretation of the results;",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "Email platform was made, with DOI: https://doi. org/10.6084/m9.figshare.14515251.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "was used to outline the guiding question, where: P (Patient/Population): N95 face respirator mask or equivalent, I (Intervention): reuse or reprocessing of N95 face respirator masks or equivalent, C (Comparison): Not applicable, O (Outcomes): Necessary conditions for reuse and reprocessing methods indicated for the N95 mask or equivalent, giving rise to the following guiding question: Which is the scientific evidence available on the different reprocessing methods and the necessary conditions for reusing N95 face respirator masks or equivalent?",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Ethanol (75%) -immersion and dry air until dry; chlorine-based solution (2%) -spray and dry air; dry heat (75\u00b0C \u00a7 ) -static air oven; vapor -boiling water cup; ultraviolet germicidal irradiation (254 nm, 8 W) -decontamination cabinet. Descriptive study VI * Face Respiratory Mask; \u2020 UV-C; \u2021 Filtering Facepiece Respirator; \u00a7 Degrees Celsius; || MS2 Bacteriophage Description of the studies regarding authors, year of publication, country, method employed in reprocessing, study type and level of evidence.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF4": {
+            "text": "Description of the studies regarding authors, year of publication/country, reuse on data, type of study and level of evidence. Ribeir\u00e3o Preto, SP, Brazil, 2020 Gir E, Menegueti MG, Sousa LRM, Pereira-Caldeira NMV, Carvalho MJ, Reis RK.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF5": {
+            "text": "Description of the studies regarding authors, objectives, type of mask, reprocessing method, type and size of the microorganisms, efficacy of each type of reprocessing, effect of reprocessing on the structure of the masks and chemical risk. Ribeir\u00e3o Preto, SP, Brazil, 2020 The descriptions of the studies regarding authors, objectives, type of mask, size and type of the microorganisms, effect of reuse on the structure of the masks and recommendation regarding reuse are presented in",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF6": {
+            "text": "Description of the studies regarding authors, objectives, type of mask, size and type of the microorganisms, effect of reuse on the structure of the masks and recommendation regarding reuse. Ribeir\u00e3o Preto, SP, Brazil, 2020",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF7": {
+            "text": "used in 14 studies(27)(28)(30)(31)(33)(34)(35)37,(39)(40)(41)45,47,51) . Among them, ultraviolet light varied from 254 to 302 nanometers, and the doses ranged from 1 to 950 J/cm 2 . The exposure timevaried from one to 266 minutes. The authors identified (41) that ultraviolet light administered as a cycle lasting one minute and 30 minutes reduced contamination, but did not meet the decontamination criteria for all places in the FRMs. Other authors showed that the FRMs can be decontaminated and reused up to three times employing ultraviolet light (45) . Significant reductions (\u22653 log) were observed in the viability of the influenza virus in 12 of 15 models tested and in relation to the straps of 7 of 15 models (40) . The authors suggest that decontamination of the N95 mask using ultraviolet can be effective, but it depends on the model, type and material of the FRMs.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF8": {
+            "text": "and their transmission by contact and possibility for reaerosolization, all the studies were conducted in laboratories and, up to date, none of them studied the permanence and ineffectiveness of SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF9": {
+            "text": "Proper sealing of the FRMs on the user's face is fundamental for them to maintain adequate protection and comfort. One study showed a progressive decline in the loads generated in the top and bottom straps of the three tested FRM models analyzed over several placement and removal simulations. The largest reduction in the loads occurred within the first 15 minutes of stress, regardless of the mask model, and the magnitude of the load decline depended on the mask model for the upper and lower",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF10": {
+            "text": "that survival time on the human skin is approximately nine hours and increases the risk of viral transmission to other skin surfaces. On the other hand, SARS-CoV-2 was completely inactivated within 15 seconds of exposure to 80% (w/w) ethanol (62) .",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF11": {
+            "text": "to be listed, such as: 1) the need to train the health professionals working in the care of patients with infectious diseases, 2) the proper technique for placement and removal of the FRMs, as they can be fomites with potential for transmission of pathogens through contact, 3) prevention measures, such as the standard precautions with an emphasis on hand hygiene and measures to limit contamination of health care environments, in order to prevent cross-transmission of microorganisms between health professionals and patients, and 4) reuse is not indicated due to the risk of self-contamination and inadequate sealing. Thus, as new respiratory pathogens emerge (at increased levels and/or of unknown virulence), there is a need for studies that focus on the possibility for reaerosolization. Future studies assessing the risks of prolonged use for the N95 mask should consider factors such as microbial load, stability of the organism in the environment, performance of the existing engineering controls, and exposure duration. Finally, there is also a need for studies focused on the improvement of mask designs that favor usability of the FRMs. We emphasize that more research studies are needed to obtain evidence, especially in real work environments for reusing and reprocessing FRMs, whether or not recommended. The evidence from this review is indeed timely to the pandemic time of COVID-19 that the world is facing. Reflecting and applying knowledge about reuse and reprocessing of FRMs can contribute to and enrich the health authorities' decisions. Safety in the health professionals' work is fundamental against a hightransmissibility pathogen capability like SARS-CoV-2.",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Decontamination by ultraviolet-C light (UVC \u2020 , 254 nanometers). The model-specific exposure times to achieve this dose varied from 2 to 266 minutes.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF2": {
+            "text": "Gir E, Menegueti MG, Sousa LRM, Pereira-Caldeira NMV, Carvalho MJ, Reis RK.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF7": {
+            "text": "When analyzing the methods for decontaminating the FRMs, we did not find sufficient evidence to support their reprocessing. We also point out that, in Brazil, any article to be reprocessed must have a validation protocol according to Collegiate Board Resolution RDC 2606 of August 11 th , 2006, which indicates cleaning, rinsing, drying, packaging, disinfection/sterilization, labeling and conditioning reprocessing phases(61)  .",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}

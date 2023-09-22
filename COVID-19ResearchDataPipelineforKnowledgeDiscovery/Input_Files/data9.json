@@ -1,0 +1,2846 @@
+{
+    "paper_id": "00092970eddd063aca001b5bb021be5557e47033",
+    "metadata": {
+        "title": "R E V I E W Role of red blood cell distribution width as a prognostic indicator in COVID-19: A systematic review and meta- analysis",
+        "authors": [
+            {
+                "first": "Soumya",
+                "middle": [],
+                "last": "Sarkar",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AIIMS",
+                    "location": {
+                        "postCode": "110029",
+                        "settlement": "Nagar, New Delhi",
+                        "region": "New Delhi, Ansari",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Sundara",
+                "middle": [],
+                "last": "Kannan",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AIIMS",
+                    "location": {
+                        "postCode": "110029",
+                        "settlement": "Nagar, New Delhi",
+                        "region": "New Delhi, Ansari",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Puneet",
+                "middle": [],
+                "last": "Khanna",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AIIMS",
+                    "location": {
+                        "postCode": "110029",
+                        "settlement": "Nagar, New Delhi",
+                        "region": "New Delhi, Ansari",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "|",
+                "middle": [],
+                "last": "Akhil",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AIIMS",
+                    "location": {
+                        "postCode": "110029",
+                        "settlement": "Nagar, New Delhi",
+                        "region": "New Delhi, Ansari",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            },
+            {
+                "first": "Kant",
+                "middle": [],
+                "last": "Singh",
+                "suffix": "",
+                "affiliation": {
+                    "laboratory": "",
+                    "institution": "AIIMS",
+                    "location": {
+                        "postCode": "110029",
+                        "settlement": "Nagar, New Delhi",
+                        "region": "New Delhi, Ansari",
+                        "country": "India"
+                    }
+                },
+                "email": ""
+            }
+        ]
+    },
+    "abstract": [
+        {
+            "text": "The red blood cell distribution width (RDW) an indicator of anisocytosis has emerged as a potential tool for risk stratification of critically ill patients with sepsis. Prognostic predictors are of paramount interest for prompt intervention and optimal utilization of the healthcare system in this ongoing context of the Coronavirus Disease 2019 (COVID-19) pandemic. The current systematic review and meta-analysis aims to explore the utility of RDW in the prognosis of COVID-19 patients. A comprehensive screening of electronic databases was performed up to 30th April 2021 after enrolling in PROSPERO (CRD42020206685).",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Observational studies or interventional studies evaluating the impact of RDW in COVID-19 outcomes (mortality and severity) are included in this meta-analysis.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        },
+        {
+            "text": "Our search retrieved 25 studies with a total of 18392 and 3446 COVID-19 patients for mortality and disease severity outcomes. Deceased and critically ill patients had higher RDW levels on admission in comparison to survivors and non-severe patients (SMD = 0.46; 95%CI 0.31-0.71; I 2 = 88% and SMD = 0.46; 95%CI 0.26-0.67; I 2 = 60% respectively). In a sub-group analysis of 2980 patients RDW > 14.5 has been associated with increased risk of mortality (OR = 2.73; 95%CI 1.96-3.82; I 2 = 56%). However the evidences is of low quality. A higher level of RDW on admission in COVID-19 patients is associated with increased morbidity and mortality. However further studies regarding the cut-off value of RDW are the need of the hour.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "Abstract"
+        }
+    ],
+    "body_text": [
+        {
+            "text": "prognostic markers of COVID-19 severity are under evaluation since January 2020. 6 Red blood cell distribution width (RDW) is a commonly measured parameter in complete blood count (CBC) panels. It is usually reported as RDW standard deviation (RDW-SD) or RDW coefficient of variation (RDW-CV), which provides us with a measure of heterogeneity in the size of red blood cells (RBC), that is, anisocytosis. Traditionally, it is used as a parameter to differentiate various types of anaemia. 7 More recently, it has been established as a marker of inflammation. Various studies have established the predictive value of RDW in the severity of a spectrum of diseases like chronic kidney disease (CKD), 8 preeclampsia, 9 cardiovascular diseases 10 and cancers. 11 Incrementally increasing RDW values are associated with an increased risk of more severe disease and mortality. 12 Systemic inflammation has been associated with increased all-cause, cancer, cardiovascular and cerebrovascular mortality. 13 Recent studies have demonstrated that increasing RDW represents an increase in the risk of MI and death, independent of anaemia and cardiovascular risk factors. [14] [15] [16] Inflammation plays a major role in the pathogenesis and severity of COVID 19 disease, culminating in cytokine release syndrome (CRS) or cytokine storm in its most severe form. 17 Higher baseline CRP and IL-6 levels were associated with more incidence of ARDS and death. [18] [19] [20] RDW as a marker of pre-existing pro-inflammatory or chronic inflammatory state can be used as a predictor of COVID 19 disease progression. There have been several studies that have examined the relationship between admission RDW and its ability to predict mortality in COVID 19 disease. In this meta-analysis, we aim to systematically analyse the current evidence for the utility of elevated RDW on admission as a prognostic indicator of COVID 19 disease, as per the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA-P) guidelines.",
+            "cite_spans": [
+                {
+                    "start": 1159,
+                    "end": 1163,
+                    "text": "[14]",
+                    "ref_id": "BIBREF14"
+                },
+                {
+                    "start": 1164,
+                    "end": 1168,
+                    "text": "[15]",
+                    "ref_id": "BIBREF15"
+                },
+                {
+                    "start": 1169,
+                    "end": 1173,
+                    "text": "[16]",
+                    "ref_id": "BIBREF16"
+                },
+                {
+                    "start": 1444,
+                    "end": 1448,
+                    "text": "[18]",
+                    "ref_id": "BIBREF18"
+                },
+                {
+                    "start": 1449,
+                    "end": 1453,
+                    "text": "[19]",
+                    "ref_id": "BIBREF19"
+                },
+                {
+                    "start": 1454,
+                    "end": 1458,
+                    "text": "[20]",
+                    "ref_id": "BIBREF20"
+                }
+            ],
+            "ref_spans": [],
+            "section": ""
+        },
+        {
+            "text": "We prospectively enrolled the protocol of this systematic review and meta-analyses in PROSPERO (ID: CRD42020206685), and there was no significant deviation from the published protocol. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Protocol and registration"
+        },
+        {
+            "text": "Prospective and retrospective comparative cohort studies, case series with a control group, cross-sectional studies, controlled clinical trials, case-control studies and randomized controlled trials (RCT), evaluating RDW on admission in COVID-19 patients were looked for inclusion.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Inclusion and exclusion criteria"
+        },
+        {
+            "text": "The primary outcome was mortality and disease severity was the secondary outcome. Articles other than those in the English language, without full retrievable text or appropriate control group were excluded (PRISMA flow diagram). 21,22",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Inclusion and exclusion criteria"
+        },
+        {
+            "text": "SS, SK and PK screened all the available abstracts independently after removing the duplications to exclude the irrelevant articles.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Study selection"
+        },
+        {
+            "text": "Then, the full-texts of the eligible studies were screened to check the inclusion criteria. Any disagreements were resolved in consultation with a fourth researcher (AKS). For dichotomous data, the number of incidents and the total number of patients in each group were noted and for continuous data, means and SD are extracted. Studies with missing data have been reported descriptively.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Study selection"
+        },
+        {
+            "text": "Due to lack of consensus regarding defining the severity of the disease among studies, any patient either requiring mechanical ventilation or with a ratio of the partial pressure of arterial blood oxygen (PaO 2 )/oxygen concentration (FiO 2 ) \u2264300 mm Hg is considered as severe/critically ill, and the rest of the patient's are defined as mild/moderate ill patients. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Data extraction"
+        },
+        {
+            "text": "The quality of evidence was judged independently by PK and SS with the Grading of Recommendations Assessment, Development and Evaluation (GRADE) tool, which has five downgrading factors (study limitations, indirectness, imprecision, consistency of effect and publication bias) and three upgrading factors (dose-response relation, large magnitude of the effect and plausible confounders or biases). 24, 25 The quality of evidence of every outcome is assorted as 'High', 'Moderate', 'Low' or 'Very low'. [26] [27] [28] [29] [30] [31] Any difference of opinion was resolved after consulting with AKS.",
+            "cite_spans": [
+                {
+                    "start": 398,
+                    "end": 401,
+                    "text": "24,",
+                    "ref_id": "BIBREF24"
+                },
+                {
+                    "start": 502,
+                    "end": 506,
+                    "text": "[26]",
+                    "ref_id": "BIBREF26"
+                },
+                {
+                    "start": 507,
+                    "end": 511,
+                    "text": "[27]",
+                    "ref_id": "BIBREF27"
+                },
+                {
+                    "start": 512,
+                    "end": 516,
+                    "text": "[28]",
+                    "ref_id": "BIBREF28"
+                },
+                {
+                    "start": 517,
+                    "end": 521,
+                    "text": "[29]",
+                    "ref_id": "BIBREF29"
+                },
+                {
+                    "start": 522,
+                    "end": 526,
+                    "text": "[30]",
+                    "ref_id": "BIBREF30"
+                },
+                {
+                    "start": 527,
+                    "end": 531,
+                    "text": "[31]",
+                    "ref_id": "BIBREF31"
+                }
+            ],
+            "ref_spans": [],
+            "section": "| Quality of the evidence"
+        },
+        {
+            "text": "We (PK and SS) used Review Manager version 5 to conduct this frequentist meta-analysis. The odds ratio (OR) for dichotomous data and mean differences (MDs) for continuous data along with the 95% confidence intervals (CIs), respectively, were assessed as per the Cochrane Handbook for Systematic Reviews of Interventions. 32 The I 2 statistic was used for evaluating the statistical heterogeneity, a value of >50% was accepted as significant heterogeneity. A funnel plot was used to assess publication bias.",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Data synthesis"
+        },
+        {
+            "text": "25 studies 33-57 out of 1,008 identified publications were incorporated according to the inclusion criteria ( Figure 1 ; Table 1 ). 19 articles were peer-reviewed and 6 were preprints. [35] [36] [37] 40, 45, 53 While nine articles evaluated RDW on admission to assess the severity of COVID-19 patients, others addressed RDW on admission between survivors and non-survivors. Among the included studies, nine studies had a moderate degree of bias ( Figure 2 ). (Figure 3b ).",
+            "cite_spans": [
+                {
+                    "start": 185,
+                    "end": 189,
+                    "text": "[35]",
+                    "ref_id": "BIBREF36"
+                },
+                {
+                    "start": 190,
+                    "end": 194,
+                    "text": "[36]",
+                    "ref_id": "BIBREF37"
+                },
+                {
+                    "start": 195,
+                    "end": 199,
+                    "text": "[37]",
+                    "ref_id": "BIBREF38"
+                },
+                {
+                    "start": 200,
+                    "end": 203,
+                    "text": "40,",
+                    "ref_id": "BIBREF42"
+                },
+                {
+                    "start": 204,
+                    "end": 207,
+                    "text": "45,",
+                    "ref_id": "BIBREF48"
+                }
+            ],
+            "ref_spans": [
+                {
+                    "start": 110,
+                    "end": 118,
+                    "text": "Figure 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 121,
+                    "end": 128,
+                    "text": "Table 1",
+                    "ref_id": null
+                },
+                {
+                    "start": 447,
+                    "end": 455,
+                    "text": "Figure 2",
+                    "ref_id": null
+                },
+                {
+                    "start": 459,
+                    "end": 469,
+                    "text": "(Figure 3b",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Basic characteristics"
+        },
+        {
+            "text": "Nine studies with a total of 3,446 patients were assessed for the severity of COVID-19. Critically ill patients are associated with increased RDW on admission (SMD = 0.46; 95%CI 0.26-0.67; Figure 4 ). Significant heterogeneity is found among studies assessing mortality and severity",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 189,
+                    "end": 197,
+                    "text": "Figure 4",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Severity"
+        },
+        {
+            "text": "We found a low quality of evidence on the impact of raised RDW on COVID-19 mortality and severity (Table 2 ).",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 98,
+                    "end": 106,
+                    "text": "(Table 2",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Quality of evidence"
+        },
+        {
+            "text": "The publication bias was assessed for the studies on COVID-19 mortality. As per the Funnel plot qualitatively a publication bias is implausible ( Figure 5 ). In the subgroup analysis, we found COVID-19 patients with initial RDW >14.5 are associated with almost double the risk of mortality.",
+            "cite_spans": [],
+            "ref_spans": [
+                {
+                    "start": 146,
+                    "end": 154,
+                    "text": "Figure 5",
+                    "ref_id": null
+                }
+            ],
+            "section": "| Publication bias"
+        },
+        {
+            "text": "Another recent observational multicentric study with 193 hospitalized COVID-19 patients, also found that RDW \u226514.5% were also significantly associated with increased risk of mortality ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Publication bias"
+        },
+        {
+            "text": "Our study is one of the extensive & comprehensive systematic review of the effectiveness of RDW on admission in patients with COVID-19",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Strengths and Limitation"
+        },
+        {
+            "text": "for predicting the mortality and severity, and may be considered at this moment as the pre-eminent evidence for decision-making. The",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Strengths and Limitation"
+        },
+        {
+            "text": "Majority of the included studies are retrospective in nature, and six studies are not peer-reviewed. Although in the current scenario, the prognostic role of RDW in COVID-19 is promising, our findings are heterogeneous, medium in effect and of low-quality evidence. We also acknowledged that the cut-off value of RDW and the point of evaluation is yet to be standardized and information in this regard is still evolving. ",
+            "cite_spans": [],
+            "ref_spans": [],
+            "section": "| Strengths and Limitation"
+        }
+    ],
+    "bib_entries": {
+        "BIBREF0": {
+            "ref_id": "b0",
+            "title": "Weekly Epidemiological Update -22",
+            "authors": [],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF1": {
+            "ref_id": "b1",
+            "title": "Coronavirus disease 2019 case surveillance -United States",
+            "authors": [
+                {
+                    "first": "E",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Stokes",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Zambrano",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [
+                        "N"
+                    ],
+                    "last": "Anderson",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "MMWR Morb Mortal Wkly Rep",
+            "volume": "69",
+            "issn": "",
+            "pages": "759--765",
+            "other_ids": {}
+        },
+        "BIBREF2": {
+            "ref_id": "b2",
+            "title": "Characteristics of and important lessons from the coronavirus disease 2019 (COVID-19) outbreak in China: summary of a report of 72,314 cases from the Chinese center for disease control and prevention",
+            "authors": [
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mcgoogan",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "J Am Med Assoc",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF4": {
+            "ref_id": "b4",
+            "title": "Coronavirus disease 2019 (COVID-19): a literature review",
+            "authors": [
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Harapan",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Itoh",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Yufika",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Public Health",
+            "volume": "13",
+            "issn": "5",
+            "pages": "667--673",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.jiph.2020.03.019"
+                ]
+            }
+        },
+        "BIBREF5": {
+            "ref_id": "b5",
+            "title": "Clinical, laboratory and imaging features of COVID-19: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Rodriguez-Morales",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Cardona-Ospina",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Guti\u00e9rrez-Ocampo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Trav Med Infect Dis",
+            "volume": "34",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1016/j.tmaid.2020.101623"
+                ]
+            }
+        },
+        "BIBREF6": {
+            "ref_id": "b6",
+            "title": "Early anti-SARS-CoV-2 convalescent plasma in patients admitted for COVID-19: a randomized phase II clinical trial. medRxiv",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "E"
+                    ],
+                    "last": "Balcells",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Rojas",
+                    "suffix": ""
+                },
+                {
+                    "first": "Le",
+                    "middle": [],
+                    "last": "Corre",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.09.17.20196212"
+                ]
+            }
+        },
+        "BIBREF7": {
+            "ref_id": "b7",
+            "title": "Red blood cell distribution width: a simple parameter with multiple clinical applications",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Salvagno",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sanchis-Gomar",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Picanza",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "Crit Rev Clin Lab Sci",
+            "volume": "52",
+            "issn": "",
+            "pages": "86--105",
+            "other_ids": {}
+        },
+        "BIBREF8": {
+            "ref_id": "b8",
+            "title": "Red cell distribution width and mortality in hemodialysis patients",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Vashistha",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Streja",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Molnar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Am J Kidney Dis Off J Natl Kidney Found",
+            "volume": "68",
+            "issn": "",
+            "pages": "110--121",
+            "other_ids": {}
+        },
+        "BIBREF9": {
+            "ref_id": "b9",
+            "title": "Red cell distribution width and preeclampsia: a systematic review and meta-analysis. Clin Hypertens",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Adam",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Mutabingwa",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Malik",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "",
+            "volume": "25",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF10": {
+            "ref_id": "b10",
+            "title": "Prognostic value of RDW in cancers: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Hu",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Ding",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "Oncotarget",
+            "volume": "8",
+            "issn": "",
+            "pages": "16027--16035",
+            "other_ids": {}
+        },
+        "BIBREF11": {
+            "ref_id": "b11",
+            "title": "High red blood cell distribution width is closely associated with risk of carotid artery atherosclerosis in patients with hypertension",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2010,
+            "venue": "Exp Clin Cardiol",
+            "volume": "15",
+            "issn": "",
+            "pages": "37--40",
+            "other_ids": {}
+        },
+        "BIBREF12": {
+            "ref_id": "b12",
+            "title": "Red cell distribution width is associated with incident myocardial infarction in a general population: the Troms\u00f8 Study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Skjelbakken",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Lappeg\u00e5rd",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Ellingsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "J Am Heart Assoc",
+            "volume": "3",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF13": {
+            "ref_id": "b13",
+            "title": "Systemic inflammation predicts all-cause mortality: a Glasgow inflammation outcome study",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Proctor",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Mcmillan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Horgan",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Fletcher",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Talwar",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Morrison",
+                    "suffix": ""
+                }
+            ],
+            "year": 2015,
+            "venue": "PLOS ONE",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF14": {
+            "ref_id": "b14",
+            "title": "Red cell distribution width in relation to incidence of coronary events and case fatality rates: a population-based cohort study",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Born\u00e9",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Smith",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Melander",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Engstr\u00f6m",
+                    "suffix": ""
+                }
+            ],
+            "year": 2014,
+            "venue": "Heart Br Card Soc",
+            "volume": "100",
+            "issn": "",
+            "pages": "1119--1124",
+            "other_ids": {}
+        },
+        "BIBREF15": {
+            "ref_id": "b15",
+            "title": "Gender and ethnic differences in red cell distribution width and its association with mortality among low risk healthy United state adults",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Zalawadiya",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Veeranna",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Panaich",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Afonso",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Ghali",
+                    "suffix": ""
+                }
+            ],
+            "year": 2012,
+            "venue": "Am J Cardiol",
+            "volume": "109",
+            "issn": "",
+            "pages": "1664--1670",
+            "other_ids": {}
+        },
+        "BIBREF16": {
+            "ref_id": "b16",
+            "title": "Red cell distribution width and common disease onsets in 240,477 healthy volunteers followed for up to 9 years",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Pilling",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Atkins",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Kuchel",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Ferrucci",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Melzer",
+                    "suffix": ""
+                }
+            ],
+            "year": 2018,
+            "venue": "PloS One",
+            "volume": "13",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF17": {
+            "ref_id": "b17",
+            "title": "The trinity of COVID-19: immunity, inflammation and intervention",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [
+                        "Z"
+                    ],
+                    "last": "Tay",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Poh",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "R\u00e9nia",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Macary",
+                    "suffix": ""
+                },
+                {
+                    "first": "Lfp",
+                    "middle": [],
+                    "last": "Ng",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Nat Rev Immunol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--12",
+            "other_ids": {}
+        },
+        "BIBREF18": {
+            "ref_id": "b18",
+            "title": "Immune response, inflammation, and the clinical spectrum of COVID-19. Front Immunol",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Garc\u00eda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "11",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF19": {
+            "ref_id": "b19",
+            "title": "The role of interleukin-6 in monitoring severe case of coronavirus disease 2019",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Liu",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Yang",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "EMBO Mol Med",
+            "volume": "12",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF20": {
+            "ref_id": "b20",
+            "title": "Risk factors associated with acute respiratory distress syndrome and death in patients with coronavirus disease 2019 pneumonia in Wuhan, China",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wu",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Cai",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Intern Med",
+            "volume": "180",
+            "issn": "",
+            "pages": "1--11",
+            "other_ids": {}
+        },
+        "BIBREF21": {
+            "ref_id": "b21",
+            "title": "The PRISMA statement for reporting systematic reviews and meta-analyses of studies that evaluate health care interventions: explanation and elaboration",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liberati",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tetzlaff",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS Med",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF22": {
+            "ref_id": "b22",
+            "title": "Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement",
+            "authors": [
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Moher",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Liberati",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Tetzlaff",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Altman",
+                    "suffix": ""
+                }
+            ],
+            "year": 2009,
+            "venue": "PLoS Med",
+            "volume": "6",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF23": {
+            "ref_id": "b23",
+            "title": "ROBINS-I: a tool for assessing risk of bias in non-randomized studies of interventions",
+            "authors": [
+                {
+                    "first": "Jac",
+                    "middle": [],
+                    "last": "Sterne",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Hern\u00e1n",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Reeves",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "BMJ",
+            "volume": "355",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1136/bmj.i4919"
+                ]
+            }
+        },
+        "BIBREF24": {
+            "ref_id": "b24",
+            "title": "GRADE guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tables",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Guyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Akl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Clin Epidemiol",
+            "volume": "64",
+            "issn": "",
+            "pages": "383--394",
+            "other_ids": {}
+        },
+        "BIBREF25": {
+            "ref_id": "b25",
+            "title": "The skills and experience of GRADE methodologists can be assessed with a simple tool",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Norris",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Meerpohl",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Akl",
+                    "suffix": ""
+                }
+            ],
+            "year": 2016,
+            "venue": "J Clin Epidemiol",
+            "volume": "79",
+            "issn": "",
+            "pages": "150--158",
+            "other_ids": {}
+        },
+        "BIBREF26": {
+            "ref_id": "b26",
+            "title": "GRADE guidelines: 4. Rating the quality of evidence-study limitations (risk of bias)",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Guyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Vist",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Clin Epidemiol",
+            "volume": "64",
+            "issn": "",
+            "pages": "407--415",
+            "other_ids": {}
+        },
+        "BIBREF27": {
+            "ref_id": "b27",
+            "title": "GRADE guidelines: 5. Rating the quality of evidence-publication bias",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Guyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Montori",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Clin Epidemiol",
+            "volume": "64",
+            "issn": "",
+            "pages": "1277--1282",
+            "other_ids": {}
+        },
+        "BIBREF28": {
+            "ref_id": "b28",
+            "title": "GRADE guidelines 6. Rating the quality of evidence-imprecision",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Guyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kunz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Clin Epidemiol",
+            "volume": "64",
+            "issn": "",
+            "pages": "1283--1293",
+            "other_ids": {}
+        },
+        "BIBREF29": {
+            "ref_id": "b29",
+            "title": "GRADE guidelines: 7. Rating the quality of evidence-inconsistency",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Guyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kunz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Clin Epidemiol",
+            "volume": "64",
+            "issn": "",
+            "pages": "1294--1302",
+            "other_ids": {}
+        },
+        "BIBREF30": {
+            "ref_id": "b30",
+            "title": "GRADE guidelines: 8. Rating the quality of evidence-indirectness",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Guyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Kunz",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Clin Epidemiol",
+            "volume": "64",
+            "issn": "",
+            "pages": "1303--1310",
+            "other_ids": {}
+        },
+        "BIBREF31": {
+            "ref_id": "b31",
+            "title": "GRADE guidelines: 9. Rating up the quality of evidence",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Guyatt",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "D"
+                    ],
+                    "last": "Oxman",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sultan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2011,
+            "venue": "J Clin Epidemiol",
+            "volume": "64",
+            "issn": "",
+            "pages": "1311--1316",
+            "other_ids": {}
+        },
+        "BIBREF32": {
+            "ref_id": "b32",
+            "title": "Updated guidance for trusted systematic reviews: a new edition of the Cochrane Handbook for Systematic Reviews of Interventions",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Cumpston",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Page",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Cochrane Database Syst Rev",
+            "volume": "10",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF33": {
+            "ref_id": "b33",
+            "title": "Clinical course and outcomes of 344 intensive care patients with COVID-19",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Li",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Am J Respir Crit Care Med",
+            "volume": "201",
+            "issn": "11",
+            "pages": "1430--1434",
+            "other_ids": {}
+        },
+        "BIBREF35": {
+            "ref_id": "b35",
+            "title": "Association of red blood cell distribution width with mortality risk in hospitalized adults with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Foy",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jct",
+                    "middle": [],
+                    "last": "Carlson",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Reinertsen",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "JAMA Netw Open",
+            "volume": "3",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1001/jamanetworkopen.2020.22058"
+                ]
+            }
+        },
+        "BIBREF36": {
+            "ref_id": "b36",
+            "title": "Development and validation of a survival calculator for hospitalized patients with COVID-19. medRxiv",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Levy",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Richardson",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Coppa",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.04.22.20075416"
+                ]
+            }
+        },
+        "BIBREF37": {
+            "ref_id": "b37",
+            "title": "Can routine laboratory variables predict survival in COVID-19? An artificial neural network-based approach",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Santos-Lozano",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Calvo-Boyero",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "L\u00f3pez-Jim\u00e9nez",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Chem Lab Med",
+            "volume": "58",
+            "issn": "12",
+            "pages": "299--302",
+            "other_ids": {
+                "DOI": [
+                    "10.1515/cclm-2020-0730"
+                ]
+            }
+        },
+        "BIBREF38": {
+            "ref_id": "b38",
+            "title": "Estimating risk of mechanical ventilation and mortality among adult COVID-19 patients admitted to mass general Brigham: the VICE and DICE scores. medRxiv",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Nicholson",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Wooster",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Sigurslid",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.09.14.20194670"
+                ]
+            }
+        },
+        "BIBREF39": {
+            "ref_id": "b39",
+            "title": "The neutrophil-to-monocyte ratio and lymphocyte-to-neutrophil ratio at admission predict in-hospital mortality in Mexican patients with severe SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Rizo-T\u00e9llez",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "M\u00e9ndez-Garc\u00eda",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Flores-Rebollo",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF41": {
+            "ref_id": "b41",
+            "title": "The neutrophil to lymphocyte ratio and in-hospital all-cause mortality in patients with COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Allahverdiyev",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Quisi",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Harbalioglu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Eur J Therapeut",
+            "volume": "26",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF42": {
+            "ref_id": "b42",
+            "title": "Dynamic Prognosis Model for Predicting Survival in Severe and Critically Ill COVID-19 Patients Using Machine Learning, 2020, PREPRINT (Version 1) available at Research Square",
+            "authors": [
+                {
+                    "first": "Yongyue",
+                    "middle": [],
+                    "last": "Wei",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jieyu",
+                    "middle": [],
+                    "last": "He",
+                    "suffix": ""
+                },
+                {
+                    "first": "Jiao",
+                    "middle": [],
+                    "last": "Chen",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21203/rs.3.rs-64083/v1"
+                ]
+            }
+        },
+        "BIBREF43": {
+            "ref_id": "b43",
+            "title": "Association between red blood cell distribution width and mortality of COVID-19 patients",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Lorente",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Mart\u00edn",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Argueso",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF45": {
+            "ref_id": "b45",
+            "title": "Red cell distribution width (RDW): a prognostic indicator of severe COVID-19",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Zhang",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Cao",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Transl Med",
+            "volume": "8",
+            "issn": "19",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21037/atm-20-6090"
+                ]
+            }
+        },
+        "BIBREF46": {
+            "ref_id": "b46",
+            "title": "Red blood cell distribution width (RDW) predicts COVID-19 severity: a prospective, observational study from the cincinnati SARS-CoV-2 emergency department cohort",
+            "authors": [
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Benoit",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Benoit",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Diagn",
+            "volume": "10",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/diagnostics10090618"
+                ]
+            }
+        },
+        "BIBREF47": {
+            "ref_id": "b47",
+            "title": "A tool for early prediction of severe coronavirus disease 2019 (COVID-19): a multicenter study using the risk nomogram in Wuhan and Guangdong, China",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Gong",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Ou",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Qiu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Infect Dis",
+            "volume": "71",
+            "issn": "15",
+            "pages": "833--840",
+            "other_ids": {
+                "DOI": [
+                    "10.1093/cid/ciaa443"
+                ]
+            }
+        },
+        "BIBREF48": {
+            "ref_id": "b48",
+            "title": "Predicting severe COVID-19 at presentation, introducing the COVID severity score (6/8/ 2020). 2020. Available at SSRN",
+            "authors": [
+                {
+                    "first": "Mpe",
+                    "middle": [],
+                    "last": "Jans",
+                    "suffix": ""
+                },
+                {
+                    "first": "T",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Kuijper",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [
+                        "G"
+                    ],
+                    "last": "Hollander",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.2139/ssrn.3627260"
+                ]
+            }
+        },
+        "BIBREF49": {
+            "ref_id": "b49",
+            "title": "Preliminary study to identify severe from moderate cases of COVID-19 using combined hematology parameters",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Wang",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Deng",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Gou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Ann Transl Med",
+            "volume": "8",
+            "issn": "9",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.21037/atm-20-3391"
+                ]
+            }
+        },
+        "BIBREF50": {
+            "ref_id": "b50",
+            "title": "Prognosis of COVID-19: red cell distribution width, platelet distribution width, and C-reactive protein",
+            "authors": [
+                {
+                    "first": "Bommenahalli",
+                    "middle": [],
+                    "last": "Gowda",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Gosavi",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                },
+                {
+                    "first": "Ananda",
+                    "middle": [],
+                    "last": "Rao",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Cureus",
+            "volume": "13",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.7759/cureus.13078"
+                ]
+            }
+        },
+        "BIBREF51": {
+            "ref_id": "b51",
+            "title": "Red cell distribution width upon hospital admission predicts short-term mortality in hospitalized patients with COVID-19: a single-center experience",
+            "authors": [
+                {
+                    "first": "C",
+                    "middle": [
+                        "C"
+                    ],
+                    "last": "Kaufmann",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Ahmed",
+                    "suffix": ""
+                },
+                {
+                    "first": "U",
+                    "middle": [],
+                    "last": "Brunner",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Front Med",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fmed.2021.652707"
+                ]
+            }
+        },
+        "BIBREF52": {
+            "ref_id": "b52",
+            "title": "Laboratory test alterations in patients with COVID-19 and non COVID-19 interstitial pneumonia: a preliminary report",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Paliogiannis",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zinellu",
+                    "suffix": ""
+                },
+                {
+                    "first": "V",
+                    "middle": [],
+                    "last": "Scano",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Infect Dev Ctries",
+            "volume": "14",
+            "issn": "7",
+            "pages": "685--690",
+            "other_ids": {
+                "DOI": [
+                    "10.3855/jidc.12879"
+                ]
+            }
+        },
+        "BIBREF53": {
+            "ref_id": "b53",
+            "title": "The relationship between serum erythropoietin, hepcidin, and haptoglobin levels with disease severity and other biochemical values in patients with COVID-19",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Ya\u011fc\u0131",
+                    "suffix": ""
+                },
+                {
+                    "first": "E",
+                    "middle": [],
+                    "last": "Serin",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00d6",
+                    "middle": [],
+                    "last": "Acicbe",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "\u0130"
+                    ],
+                    "last": "Zeren",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Odaba\u015f\u0131",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF55": {
+            "ref_id": "b55",
+            "title": "Predictors of mortality in patients with COVID-19 infectionassociated acute kidney injury",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Tocoglu",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [],
+                    "last": "Dheir",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Bektas",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Acikgoz",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Karabay",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sipahi",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Coll Physicians Surg Pak",
+            "volume": "31",
+            "issn": "1",
+            "pages": "60--65",
+            "other_ids": {
+                "DOI": [
+                    "10.29271/jcpsp.2021.01.s60"
+                ]
+            }
+        },
+        "BIBREF56": {
+            "ref_id": "b56",
+            "title": "Significance of RDW in predicting mortality in COVID-19-An analysis of 622 cases",
+            "authors": [
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Soni",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Gopalakrishnan",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF58": {
+            "ref_id": "b58",
+            "title": "Red blood cell distribution width (RDW) in Hospitalized COVID-19 Patients. medRxiv",
+            "authors": [
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Ramachandran",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Gajendran",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Perisetti",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1101/2020.06.29.20143081"
+                ]
+            }
+        },
+        "BIBREF59": {
+            "ref_id": "b59",
+            "title": "Low albumin levels are associated with poorer outcomes in a case series of COVID-19 patients in Spain: a retrospective cohort study. Microorganisms",
+            "authors": [
+                {
+                    "first": "Rica",
+                    "middle": [
+                        "R"
+                    ],
+                    "last": "De La",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Borges",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Aranda",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "",
+            "volume": "8",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/microorganisms8081106"
+                ]
+            }
+        },
+        "BIBREF60": {
+            "ref_id": "b60",
+            "title": "Associations between hematological parameters and disease severity in patients with SARS-CoV-2 infection",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lin",
+                    "suffix": ""
+                },
+                {
+                    "first": "W",
+                    "middle": [],
+                    "last": "Mao",
+                    "suffix": ""
+                },
+                {
+                    "first": "Q",
+                    "middle": [],
+                    "last": "Zou",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Lu",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Zheng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Clin Lab Anal",
+            "volume": "35",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jcla.23604"
+                ]
+            }
+        },
+        "BIBREF61": {
+            "ref_id": "b61",
+            "title": "Risk factors affecting ICU admission in COVID-19 patients; Could air temperature be an effective factor?",
+            "authors": [
+                {
+                    "first": "I",
+                    "middle": [],
+                    "last": "Solmaz",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "\u00d6z\u00e7aylak",
+                    "suffix": ""
+                },
+                {
+                    "first": "\u00d6",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Alaku\u015f",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Int J Clin Pract",
+            "volume": "75",
+            "issn": "3",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1111/ijcp.13803"
+                ]
+            }
+        },
+        "BIBREF62": {
+            "ref_id": "b62",
+            "title": "Do initial hematologic indices predict the severity of COVID-19 patients?",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Asan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [
+                        "Y"
+                    ],
+                    "last": "Ustunda",
+                    "suffix": ""
+                },
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Koca",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Turk J Med Sci",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF63": {
+            "ref_id": "b63",
+            "title": "Red cell distribution width as a prognostic marker in patients with community-acquired pneumonia",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "H"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "H",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Chung",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Kim",
+                    "suffix": ""
+                }
+            ],
+            "year": 2013,
+            "venue": "Am J Emerg Med",
+            "volume": "31",
+            "issn": "",
+            "pages": "72--79",
+            "other_ids": {}
+        },
+        "BIBREF64": {
+            "ref_id": "b64",
+            "title": "Red blood cell distribution is a significant predictor of severe illness in coronavirus disease",
+            "authors": [
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Lippi",
+                    "suffix": ""
+                },
+                {
+                    "first": "B",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Henry",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Sanchis-Gomar",
+                    "suffix": ""
+                }
+            ],
+            "year": 2019,
+            "venue": "Acta Haematol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--5",
+            "other_ids": {
+                "DOI": [
+                    "10.1159/000510914"
+                ]
+            }
+        },
+        "BIBREF65": {
+            "ref_id": "b65",
+            "title": "Red blood cell distribution width, disease severity, and mortality in hospitalized patients with SARS-CoV-2 infection: a systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Zinellu",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "A"
+                    ],
+                    "last": "Mangoni",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "J Clin Med",
+            "volume": "10",
+            "issn": "2",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3390/jcm10020286"
+                ]
+            }
+        },
+        "BIBREF66": {
+            "ref_id": "b66",
+            "title": "Association between red blood cell distribution width and mortality and severity among patients SARKAR ET AL",
+            "authors": [
+                {
+                    "first": "J",
+                    "middle": [
+                        "J"
+                    ],
+                    "last": "Lee",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [
+                        "M"
+                    ],
+                    "last": "Montazerin",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Jamil",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "",
+            "volume": "9",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF67": {
+            "ref_id": "b67",
+            "title": "COVID-19: a systematic review and meta-analysis",
+            "authors": [],
+            "year": 2021,
+            "venue": "J Med Virol",
+            "volume": "93",
+            "issn": "",
+            "pages": "2513--2522",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/jmv.26797"
+                ]
+            }
+        },
+        "BIBREF68": {
+            "ref_id": "b68",
+            "title": "Increased red cell distribution width is associated with disease severity in hospitalized adults with SARS-CoV-2 infection: an observational multicentric study",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Karampitsakos",
+                    "suffix": ""
+                },
+                {
+                    "first": "K",
+                    "middle": [],
+                    "last": "Akinosoglou",
+                    "suffix": ""
+                },
+                {
+                    "first": "O",
+                    "middle": [],
+                    "last": "Papaioannou",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Front Med",
+            "volume": "7",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.3389/fmed.2020.616292"
+                ]
+            }
+        },
+        "BIBREF69": {
+            "ref_id": "b69",
+            "title": "Red blood cell distribution width is associated with mortality risk in patients with acute respiratory distress syndrome based on the Berlin definition: a propensity score matched cohort study",
+            "authors": [
+                {
+                    "first": "X",
+                    "middle": [
+                        "S"
+                    ],
+                    "last": "Yu",
+                    "suffix": ""
+                },
+                {
+                    "first": "Z",
+                    "middle": [
+                        "Q"
+                    ],
+                    "last": "Chen",
+                    "suffix": ""
+                },
+                {
+                    "first": "Y",
+                    "middle": [
+                        "F"
+                    ],
+                    "last": "Hu",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Heart Lung",
+            "volume": "",
+            "issn": "",
+            "pages": "30143--30146",
+            "other_ids": {}
+        },
+        "BIBREF70": {
+            "ref_id": "b70",
+            "title": "A predictive model for acute respiratory distress syndrome mortality using red cell distribution width",
+            "authors": [
+                {
+                    "first": "A",
+                    "middle": [],
+                    "last": "Alkhatib",
+                    "suffix": ""
+                },
+                {
+                    "first": "L",
+                    "middle": [
+                        "L"
+                    ],
+                    "last": "Price",
+                    "suffix": ""
+                },
+                {
+                    "first": "R",
+                    "middle": [],
+                    "last": "Esteitie",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Lacamera",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Crit Care Res Pract",
+            "volume": "2020",
+            "issn": "",
+            "pages": "",
+            "other_ids": {}
+        },
+        "BIBREF71": {
+            "ref_id": "b71",
+            "title": "Evidence of structural protein damage and membrane lipid remodeling in red blood cells from COVID-19 patients",
+            "authors": [
+                {
+                    "first": "T",
+                    "middle": [],
+                    "last": "Thomas",
+                    "suffix": ""
+                },
+                {
+                    "first": "D",
+                    "middle": [],
+                    "last": "Stefanoni",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Dzieciatkowska",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "J Proteome Res",
+            "volume": "19",
+            "issn": "11",
+            "pages": "4455--4469",
+            "other_ids": {
+                "DOI": [
+                    "10.1021/acs.jproteome.0c00606"
+                ]
+            }
+        },
+        "BIBREF72": {
+            "ref_id": "b72",
+            "title": "Histiocytic hyperplasia with hemophagocytosis and acute alveolar damage in COVID-19 infection",
+            "authors": [
+                {
+                    "first": "L",
+                    "middle": [],
+                    "last": "Prieto-P\u00e9rez",
+                    "suffix": ""
+                },
+                {
+                    "first": "J",
+                    "middle": [],
+                    "last": "Fortes",
+                    "suffix": ""
+                },
+                {
+                    "first": "C",
+                    "middle": [],
+                    "last": "Soto",
+                    "suffix": ""
+                }
+            ],
+            "year": null,
+            "venue": "Mod Pathol",
+            "volume": "2020",
+            "issn": "",
+            "pages": "1--8",
+            "other_ids": {}
+        },
+        "BIBREF73": {
+            "ref_id": "b73",
+            "title": "A relative ADAMTS13 deficiency supports the presence of a secondary microangiopathy in COVID 19",
+            "authors": [
+                {
+                    "first": "N",
+                    "middle": [],
+                    "last": "Martinelli",
+                    "suffix": ""
+                },
+                {
+                    "first": "M",
+                    "middle": [],
+                    "last": "Montagnana",
+                    "suffix": ""
+                },
+                {
+                    "first": "F",
+                    "middle": [],
+                    "last": "Pizzolo",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Thromb Res",
+            "volume": "193",
+            "issn": "",
+            "pages": "170--172",
+            "other_ids": {}
+        },
+        "BIBREF74": {
+            "ref_id": "b74",
+            "title": "Can routine laboratory tests discriminate SARS-CoV-2-infected pneumonia from other causes of communityacquired pneumonia?",
+            "authors": [
+                {
+                    "first": "Y",
+                    "middle": [],
+                    "last": "Pan",
+                    "suffix": ""
+                },
+                {
+                    "first": "G",
+                    "middle": [],
+                    "last": "Ye",
+                    "suffix": ""
+                },
+                {
+                    "first": "X",
+                    "middle": [],
+                    "last": "Zeng",
+                    "suffix": ""
+                }
+            ],
+            "year": 2020,
+            "venue": "Clin Transl Med",
+            "volume": "10",
+            "issn": "1",
+            "pages": "161--168",
+            "other_ids": {}
+        },
+        "BIBREF75": {
+            "ref_id": "b75",
+            "title": "Role of red blood cell distribution width, as a prognostic indicator in COVID-19: A systematic review and meta-analysis",
+            "authors": [
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Sarkar",
+                    "suffix": ""
+                },
+                {
+                    "first": "S",
+                    "middle": [],
+                    "last": "Kannan",
+                    "suffix": ""
+                },
+                {
+                    "first": "P",
+                    "middle": [],
+                    "last": "Khanna",
+                    "suffix": ""
+                },
+                {
+                    "first": "A",
+                    "middle": [
+                        "K"
+                    ],
+                    "last": "Singh",
+                    "suffix": ""
+                }
+            ],
+            "year": 2021,
+            "venue": "Rev Med Virol",
+            "volume": "",
+            "issn": "",
+            "pages": "",
+            "other_ids": {
+                "DOI": [
+                    "10.1002/rmv.2264"
+                ]
+            }
+        }
+    },
+    "ref_entries": {
+        "FIGREF0": {
+            "text": "SS and SK used a pre-conceived data extraction sheet individually for extracting the following data from all included studies: first author,year of publication, type of study, place, sample size, coefficient of variation of the red cell distribution width (RDW-CV) expressed in percentage on admission, disease severity and mortality in COVID-19 patients.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF1": {
+            "text": "SS and PK independently assessed any potential bias in selected studies. The difference of opinion was resolved by consulting with AKS. The Risk Of Bias In Non-randomized Studies, of Interventions (ROBINS-I) 23 tool was used for assessing the risk of bias in non-randomized studies. It includes the following seven domains: 'bias due to confounding', 'selection of participants, classification of interventions', 'deviations from intended interventions', 'missing data', 'measurement of outcomes' and 'selection of the reported result'. Every domain is graded as 'Low', 'Moderate', 'Serious' and 'Critical'.",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF2": {
+            "text": "with a total of 18,392 patients were evaluated for mortality in COVID-19. Significantly, RDW on admission was higher among the deceased in comparison to the survivors (SMD = 0.46; 95%CI 0.31-0.61; I 2 = 88%) (Figure 3a). In a subgroup analysis of four studies (n = 2980), COVID-19 patients with RDW >14.5 on admission had a significantly higher",
+            "latex": null,
+            "type": "figure"
+        },
+        "FIGREF3": {
+            "text": "Abbreviations: AKI, Acute kidney injury; CI, confidence interval; COVID-19, Coronavirus Disease 2019; MC, Multi centre; OR, odds ratio; RDW, Red blood cell distribution width; RDW-SD, Red blood cell distribution width standard deviation; SC, Single centre.F I G U R E 2 ROBINS-I assesment for the included non-We have identified low-quality evidence with variability that RDW value on admission has the potential ability of discrimination in COVID-19 patients predicting the mortality and severity.RDW, generated automatically in the majority of haematological analysers, is a low-cost parameter. It increases in response to many acute and chronic proinflammatory conditions. Raised RDW implies a large burden of anisocytosis in circulating erythrocytes. It is associated with mortality in patients with nonspecific ARDS (i.e., without COVID-19). A median RDW value of 14.1% (IQR: 13.3%-15.2%) on admission was associated with increased morbidity and mortality in patients with community-acquired pneumonia (CAP).58 A recent systematic review also echoed that a higher RDW is associated with severely ill COVID-19 patients with severe illness than in those with mild disease (SMD = 0.69,95%CI 0.40-0.98).59 Zinellu & Mangoni also found that the critically ill and expiredCOVID-19 patients had significantly elevated RDW (SMD = 0.56, 95%CI 0.31 to 0.81). 60 Similarly, a meta-analysis of 10 studies found that the deceased COVID-19 patients had significantly elevated RDW in comparison to the surviving patients (MD = 0.93; 95%CI = 0.63-1.23; I2 = 85.58%).F I G U R E 3 (a) The impact of the Red blood cell distribution width (RDW) on mortality in Coronavirus Disease 2019 (COVID-19) patients. (b) Subgroup analysis of impact of the RDW >14.5 on mortality in COVID-19 patients F I G U R E 4 The impact of Red blood cell distribution width on disease severity in Coronavirus Disease 2019 patients 6 of 10 -SARKAR ET AL.They also reported that the elevated RDW is associated with disease severity (MD = 0.61; 95%CI = 0.28-0.94; I2 = 82.18%).61",
+            "latex": null,
+            "type": "figure"
+        },
+        "TABREF0": {
+            "text": "Three researchers (Soumya Sarkar [SS], Sundara Kannan [SK] and Puneet Khanna [PK]) independently searched the important electronic databases (PubMed, Medline and Embase), Google Scholar (https://scholar.google.com), preprint platforms MedRxiv (https:// www.medrxiv.org) and Clinical trial database (https://ClinicalTrials. gov) from 1st January 2020 to 30th April 2021 with the following keywords: 'COVID-19' or 'SARS-CoV-2' and 'RDW' or 'Red blood cell distribution width'.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF3": {
+            "text": "(HR: 4.1, 95% CI: 0.88-19.23, p = 0.02).62 An elevated RDW, a marker of anisocytosis has been implicated in a wide spectrum of diseases, particularly in patients with nonspecific ARDS (non-COVID-19).63,64 However, the particular mechanism for altered RDW with SARS-COV-2 is still under evaluation.While a recent study reported about the structural change of lipid and proteins in the membrane of circulating RBCs due to SARS-CoV-2 infection,65 there are reports of bone marrow injury secondary to SARS-CoV-2 infection.66 The development of micro-and macro-thrombi, due to intravascular coagulopathy is commonly seen in critically ill COVID-19 patients, may also lead to erythrocyte injury resulting in morphological abnormalities.67 However, there is no consensus regarding the optimum cut-off for RDW. While Pan Y et al.68 suggested a cut off value of 13.35 (sensitivity: 79.8%, specificity: 84.6%), Lorente et al.41 advocated for cut off of >13 (sensitivity: 63%, specificity: 78%), Gowda et al.47 have reported RDW \u226415% is a potential predictive value (sensitivity: 92%, negative predictive value: 95%), and Wang c found a cut off value 12.85 had 73.95 sensitivity along with 81.9% specificity.42 Irrespective of different cut-off values of RDW at admission, it cannot be ignored that elevated RDW is associated with increased morbidity and mortality in SARS-COV2 infection.",
+            "latex": null,
+            "type": "table"
+        },
+        "TABREF4": {
+            "text": "T A B L E 2 GRADE evidence profile of COVID-19 studies Abbreviations: COVID-19, Coronavirus Disease 2019; RDW, red blood cell distribution width. F I G U R E 5 Funnel plot of the included studies for assessment of publication bias SARKAR ET AL.",
+            "latex": null,
+            "type": "table"
+        }
+    },
+    "back_matter": []
+}
