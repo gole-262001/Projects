@@ -1,0 +1,2 @@
+count(DISTINCT paper_id)
+8
