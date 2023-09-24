@@ -10,3 +10,61 @@ Found 9 items
 -rw-r--r--   1 hadoopusr supergroup      77663 2023-08-30 16:34 /data/data6.json
 -rw-r--r--   1 hadoopusr supergroup     154849 2023-08-30 16:34 /data/data8.json
 -rw-r--r--   1 hadoopusr supergroup      99236 2023-08-30 16:34 /data/data9.json
+
+
+***************************************************************************************************
+
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -ls /output/result.csv
+2023-09-24 15:51:04,852 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 1 items
+-rw-r--r--   1 hadoopusr supergroup          0 2023-09-24 15:36 /output/result.csv/_SUCCESS
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -ls user/hive/warehouse
+2023-09-24 15:53:14,520 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ls: `user/hive/warehouse': No such file or directory
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -ls /
+2023-09-24 15:53:28,286 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 7 items
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-18 10:50 /data
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-17 23:37 /fthase
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-05 14:19 /hbase
+drwxrwxrwx   - hadoopusr supergroup          0 2023-09-19 22:21 /input
+drwxrwxrwx   - hadoopusr supergroup          0 2023-09-24 15:36 /output
+drwxrwxrwx   - hadoopusr supergroup          0 2023-09-14 17:17 /tmp
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-14 17:02 /user
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -ls /user
+2023-09-24 15:53:39,527 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 1 items
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-14 17:02 /user/hive
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -ls /user/hive
+2023-09-24 15:53:44,869 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 1 items
+drwxrwxr-x   - hadoopusr supergroup          0 2023-09-20 10:27 /user/hive/warehouse
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -ls /user/hive/warehouse
+2023-09-24 15:53:51,899 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 2 items
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-20 10:27 /user/hive/warehouse/covid_data.db
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-17 23:37 /user/hive/warehouse/mytable
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -ls /user/hive/warehouse/covid_data.db
+2023-09-24 15:54:04,939 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 5 items
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-20 10:27 /user/hive/warehouse/covid_data.db/auhtor_country
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-24 15:37 /user/hive/warehouse/covid_data.db/number_of_paper
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-24 15:35 /user/hive/warehouse/covid_data.db/paper_id_and_abstract
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-24 15:35 /user/hive/warehouse/covid_data.db/paper_id_and_title
+drwxr-xr-x   - hadoopusr supergroup          0 2023-09-24 15:37 /user/hive/warehouse/covid_data.db/result
+
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -ls /user/hive/warehouse/covid_data.db/number_of_paper
+2023-09-24 15:54:56,501 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 8 items
+-rwxr-xr-x   1 hadoopusr supergroup         14 2023-09-20 10:24 /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-00809aef-6d92-46d7-96a4-ed9f04e8aea5-c000.csv
+-rwxr-xr-x   1 hadoopusr supergroup         14 2023-09-21 17:05 /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-14871b66-14a0-4eb5-a2d7-9747e50cd694-c000.csv
+-rwxr-xr-x   1 hadoopusr supergroup         14 2023-09-21 17:12 /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-40a8ff4c-6864-440c-ab96-16b2e016df15-c000.csv
+-rwxr-xr-x   1 hadoopusr supergroup         14 2023-09-24 13:47 /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-5d6691d5-5b1d-4226-b7f5-316b5ee9f86e-c000.csv
+-rwxr-xr-x   1 hadoopusr supergroup         14 2023-09-21 17:11 /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-7dc8c5ec-23b5-45a3-858a-c00c4a0cc489-c000.csv
+-rwxr-xr-x   1 hadoopusr supergroup         14 2023-09-24 15:34 /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-803b6d90-5e52-43fb-b786-005bfa3f183f-c000.csv
+-rwxr-xr-x   1 hadoopusr supergroup         14 2023-09-24 15:28 /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-b3820653-c870-4feb-8080-bc83b94cd4bb-c000.csv
+-rwxr-xr-x   1 hadoopusr supergroup         14 2023-09-24 15:36 /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-d3b47fb2-87f4-4f70-8044-05ecebaa4f6d-c000.csv
+hadoopusr@DESKTOP-1CFP2U7:~$ hadoop fs -cat /user/hive/warehouse/covid_data.db/number_of_paper/part-00000-00809aef-6d92-46d7-96a4-ed9f04e8aea5-c000.csv
+2023-09-24 15:55:24,907 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+total_paper
+8
